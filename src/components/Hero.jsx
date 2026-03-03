@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="grid grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div>
-            <h1 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
+            <h1 className="text-5xl font-bold font-rajdhani text-gray-900 mb-6 leading-tight">
               Data-Heavy Interfaces for Climate Tech
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">

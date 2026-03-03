@@ -35,7 +35,7 @@ const Projects = () => {
       <div className="max-w-7xl mx-auto px-12 py-24">
         {/* Section Header */}
         <div className="mb-24">
-          <h2 className="text-5xl font-bold text-gray-900 mb-4">Selected Projects</h2>
+          <h2 className="text-5xl font-bold font-rajdhani text-gray-900 mb-4">Selected Projects</h2>
           <p className="text-xl text-gray-700">
             A showcase of data-driven interfaces and tools built for the renewable energy sector
           </p>
