@@ -5,7 +5,7 @@ const ProjectCard = ({ projectNumber, title, description, imageUrl }) => {
     <div className="mb-24">
       <div className="mb-8">
         <p className="text-sm font-semibold text-gray-600 mb-2">Project {projectNumber}</p>
-        <h3 className="text-4xl font-bold font-rajdhani text-gray-900 mb-4">{title}</h3>
+        <h3 className="text-4xl font-bold font-rajdhani text-gray-700 mb-4">{title}</h3>
         <p className="text-lg text-gray-700 max-w-2xl">{description}</p>
       </div>
       

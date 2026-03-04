@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         rajdhani: ['Rajdhani', 'sans-serif'],
       },
+      maxWidth: {
+        '8xl': '96rem',
+      }
     },
   },
   plugins: [],
