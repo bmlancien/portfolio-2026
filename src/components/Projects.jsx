@@ -32,11 +32,24 @@ const Projects = () => {
 
   return (
     <section id="projects" className="bg-white">
-      <div className="max-w-7xl mx-auto px-12 py-24">
+      <div className="max-w-8xl mx-auto px-6 lg:px-8 xl:px-12 py-24">
         {/* Section Header */}
+        {/* Downward arrows indicating scrollable content */}
+        <div className="flex justify-center space-x-2 mb-8">
+          {[0, 1, 2].map((i) => (
+            <span
+              key={i}
+              className="text-3xl text-gray-400 animate-float"
+              style={{ animationDelay: `${i * 0.15}s` }}
+              aria-hidden="true"
+            >
+              ↓
+            </span>
+          ))}
+        </div>
         <div className="mb-24">
-          <h2 className="text-5xl font-bold font-rajdhani text-gray-700 mb-4">Selected Projects</h2>
-          <p className="text-xl text-gray-700">
+          <h2 className="text-center text-5xl font-bold font-rajdhani text-gray-700 mb-4">Selected Projects</h2>
+          <p className="text-center text-xl font-light text-gray-700">
             A showcase of data-driven interfaces and tools built for the renewable energy sector
           </p>
         </div>
