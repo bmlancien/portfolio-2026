@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -6,7 +7,7 @@ const Navbar = () => {
       <div className="max-w-8xl mx-auto px-6 lg:px-8 xl:px-12 py-4 flex items-center justify-between h-18">
         {/* Logo Section */}
         <div className="flex items-center gap-4">
-          <img src="/images/logo.svg" alt="Logo" className="w-[327px] h-auto" />
+          <Link to="/"><img src="/images/logo.svg" alt="Logo" className="w-[327px] h-auto" /></Link>
         </div>
 
         {/* Navigation Links and Social Icons */}

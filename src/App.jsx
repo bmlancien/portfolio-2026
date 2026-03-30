@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/react';
 import HomePage from './pages/HomePage';
 import ImprintPage from './pages/ImprintPage';
 import PrivacyPage from './pages/PrivacyPage';
+import ContactPage from './pages/ContactPage';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.css';
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/imprint" element={<ImprintPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
+          <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>
         <Footer />
