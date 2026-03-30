@@ -18,7 +18,7 @@ const Navbar = () => {
           <a href="#about" className="text-gray-700 font-medium hover:text-gray-600">
             About
           </a>
-          <a href="#contact" className="text-gray-700 font-medium hover:text-gray-600">
+          <a href="/contact" className="text-gray-700 font-medium hover:text-gray-600">
             Contact
           </a>
           <a href="https://github.com/bmlancien" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-600">
