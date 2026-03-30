@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Analytics } from '@vercel/analytics/react';
 import HomePage from './pages/HomePage';
 import ImprintPage from './pages/ImprintPage';
+import PrivacyPage from './pages/PrivacyPage';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.css';
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/imprint" element={<ImprintPage />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
           </Routes>
         </main>
         <Footer />

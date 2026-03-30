@@ -38,8 +38,8 @@ const Footer = () => {
               </a>
             </div>
             <div className="space-y-1">
-              <Link to="/imprint" className="text-gray-700 font-medium hover:underline">Imprint</Link>
-              <p className="text-gray-700 font-medium">Data Privacy</p>
+              <Link to="/imprint" className="block text-gray-700 font-medium hover:underline">Imprint</Link>
+              <Link to="/privacy" className="block text-gray-700 font-medium hover:underline">Data Privacy</Link>
             </div>
           </div>
         </div>
