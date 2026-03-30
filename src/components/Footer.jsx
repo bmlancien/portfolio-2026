@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -37,7 +38,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="space-y-1">
-              <p className="text-gray-700 font-medium">Imprint</p>
+              <Link to="/imprint" className="text-gray-700 font-medium hover:underline">Imprint</Link>
               <p className="text-gray-700 font-medium">Data Privacy</p>
             </div>
           </div>
