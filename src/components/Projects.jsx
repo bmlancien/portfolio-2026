@@ -32,10 +32,10 @@ const Projects = () => {
 
   return (
     <section id="projects" className="bg-white">
-      <div className="max-w-8xl mx-auto px-6 lg:px-8 xl:px-12 py-24">
+      <div className="max-w-8xl mx-auto px-6 lg:px-8 xl:px-12 pt-0 2xl:pt-8 pb-12 lg:pb-20">
         {/* Section Header */}
         {/* Downward arrows indicating scrollable content */}
-        <div className="flex justify-center space-x-2 mb-8">
+        <div className="flex justify-center space-x-2 mb-4">
           {[0, 1, 2].map((i) => (
             <span
               key={i}
@@ -47,7 +47,7 @@ const Projects = () => {
             </span>
           ))}
         </div>
-        <div className="mb-24">
+        <div className="mb-8 lg:mb-10">
           <h2 className="text-center text-5xl font-bold font-rajdhani text-gray-700 mb-4">Selected Projects</h2>
           <p className="text-center text-xl font-light text-gray-700">
             A showcase of data-driven interfaces and tools built for the renewable energy sector
