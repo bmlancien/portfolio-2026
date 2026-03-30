@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-4">
               <img src="/images/logo.svg" alt="Logo" className="w-[327px] h-auto" />
             </div>
-            <p className="text-gray-600 text-sm">© 2025. All rights reserved</p>
+            <p className="text-gray-600 text-sm">© {new Date().getFullYear()}. All rights reserved</p>
           </div>
 
           {/* Navigation Links */}
