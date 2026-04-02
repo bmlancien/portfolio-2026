@@ -9,7 +9,7 @@ const Projects = () => {
       title: 'EmpowerPlan',
       description: 'Web app visualizing the regional energy system of a german region and aims at creating a trans-disciplinary dialogue between decision-makers.',
       imageUrl: '/images/projects/empowerplan.png',
-      link: '/projects/empowerplan'
+      link: '/projects/epp'
     },
     {
       projectNumber: 2,

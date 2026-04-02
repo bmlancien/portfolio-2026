@@ -32,6 +32,7 @@ export default function EmpowerPlanPage() {
             alt="Challenges as first page in the EmPowerPlan prototype"
             caption="Users start with the Challenges step"
             width={1280}
+            height={673}
           />
         </ProjectSection>
         <ProjectDivider />
@@ -49,7 +50,8 @@ export default function EmpowerPlanPage() {
             src="/images/projects/epp/epp-scenarios.svg"
             alt="After seeing the challenges and regional data in the first two steps, users can compare scenarios to state and national targets in the third step"
             caption="After seeing the challenges and regional data in the first two steps, users can compare scenarios to state and national targets in the third step"
-            width={1280}
+            width={1282}
+            height={822}
           />
           <p>
             A wizard-style flow (Herausforderungen → Region heute → Szenarien → Einstellungen → Ergebnisse) 
@@ -62,6 +64,7 @@ export default function EmpowerPlanPage() {
             alt="Layout overview: Top navigation bar, with side panels for parameters and content, next to the map and charts."
             caption="Layout overview: Top navigation bar, with side panels for parameters and content, next to the map and charts."
             width={806}
+            height={524}
           />
         </ProjectSection>
         <ProjectDivider />
@@ -79,12 +82,14 @@ export default function EmpowerPlanPage() {
             alt="Color palettes used in the EmPowerPlan prototype"
             caption="Color palettes for a high number of layers, designed to work together on the same map"
             width={1440}
+            height={2447}
           />
           <ProjectImage
             src="/images/projects/epp/epp-map.png"
             alt="Map view"
             caption="Map view with different layers of information, including land use, protected areas, and renewable energy potential"
             width={1440}
+            height={901}
           />
         </ProjectSection>
         <ProjectDivider />
@@ -101,6 +106,7 @@ export default function EmpowerPlanPage() {
             alt="Iteration process in the EmPowerPlan prototype"
             caption="Iteration process in the EmPowerPlan prototype, with workshops leading to design changes that were implemented directly in the frontend code and tested again in the next workshop cycle"
             width={1440}
+            height={329}
           />
           <p>
             By the final iteration, participants were navigating the tool independently and using scenario 
@@ -111,6 +117,7 @@ export default function EmpowerPlanPage() {
             alt="Results view"
             caption="Results view with different layers of information, includind charts and a map view"
             width={1280}
+            height={1031}
           />
         </ProjectSection>
       </div>

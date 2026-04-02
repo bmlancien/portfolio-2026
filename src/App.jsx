@@ -21,7 +21,7 @@ function App() {
             <Route path="/imprint" element={<ImprintPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/projects/empowerplan" element={<EmpowerPlanPage />} />
+          <Route path="/projects/epp" element={<EmpowerPlanPage />} />
           </Routes>
         </main>
         <Footer />
