@@ -7,6 +7,7 @@ import PrivacyPage from './pages/PrivacyPage';
 import ContactPage from './pages/ContactPage';
 import EmpowerPlanPage from './pages/projects/EmpowerPlanPage';
 import Navbar from './components/Navbar';
+import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -14,6 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="bg-white flex flex-col min-h-screen">
+        <ScrollToTop />
         <Navbar />
         <main className="flex-grow">
           <Routes>
