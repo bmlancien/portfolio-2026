@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ProjectHero({ srcLarge, srcSmall, alt, widthLarge, heightLarge, widthSmall, heightSmall }) {
   return (
-    <div className="overflow-hidden -translate-y-8 lg:-translate-y-12 xl:-translate-y-40">
+    <div className="overflow-hidden">
       <img
         src={srcSmall}
         alt={alt}
