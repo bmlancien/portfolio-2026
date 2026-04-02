@@ -8,7 +8,8 @@ const Projects = () => {
       projectNumber: 1,
       title: 'EmpowerPlan',
       description: 'Web app visualizing the regional energy system of a german region and aims at creating a trans-disciplinary dialogue between decision-makers.',
-      imageUrl: '/images/projects/empowerplan.png'
+      imageUrl: '/images/projects/empowerplan.png',
+      link: '/projects/empowerplan'
     },
     {
       projectNumber: 2,
@@ -63,6 +64,7 @@ const Projects = () => {
               title={project.title}
               description={project.description}
               imageUrl={project.imageUrl}
+              link={project.link}
             />
           ))}
         </div>
