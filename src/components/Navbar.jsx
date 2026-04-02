@@ -1,8 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+
+const projects = [
+  { label: 'EmpowerPlan', to: '/projects/epp' },
+];
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    function handleClickOutside(e) {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
+        setDropdownOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   return (
     <>
@@ -15,7 +32,41 @@ const Navbar = () => {
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-12">
-            <a href="#projects" className="text-gray-700 font-medium hover:text-gray-600">Projects</a>
+
+            {/* Projects dropdown */}
+            <div className="relative" ref={dropdownRef}>
+              <button
+                className="flex items-center gap-1 text-gray-700 font-medium hover:text-gray-600 focus:outline-none"
+                onClick={() => setDropdownOpen(!dropdownOpen)}
+              >
+                Projects
+                <svg
+                  width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" strokeWidth="2" strokeLinecap="round"
+                  className={`transition-transform duration-200 ${dropdownOpen ? 'rotate-180' : ''}`}
+                >
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+              </button>
+
+              {/* Dropdown panel */}
+              <div className={`absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden
+                transition-all duration-200 ease-in-out origin-top
+                ${dropdownOpen ? 'opacity-100 scale-y-100' : 'opacity-0 scale-y-0 pointer-events-none'}`}
+              >
+                {projects.map((p) => (
+                  <Link
+                    key={p.to}
+                    to={p.to}
+                    className="block px-4 py-3 text-gray-700 font-medium hover:bg-gray-50"
+                    onClick={() => setDropdownOpen(false)}
+                  >
+                    {p.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
             <a href="#about" className="text-gray-700 font-medium hover:text-gray-600">About</a>
             <a href="/contact" className="text-gray-700 font-medium hover:text-gray-600">Contact</a>
             <a href="https://github.com/bmlancien" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-600">
@@ -59,7 +110,16 @@ const Navbar = () => {
         }`}
       >
         <nav className="flex flex-col gap-8">
-          <a href="#projects" className="text-xl font-bold font-rajdhani text-gray-700 hover:text-gray-500" onClick={() => setMenuOpen(false)}>Projects</a>
+          {projects.map((p) => (
+            <Link
+              key={p.to}
+              to={p.to}
+              className="text-xl font-bold font-rajdhani text-gray-700 hover:text-gray-500"
+              onClick={() => setMenuOpen(false)}
+            >
+              {p.label}
+            </Link>
+          ))}
           <a href="#about" className="text-xl font-bold font-rajdhani text-gray-700 hover:text-gray-500" onClick={() => setMenuOpen(false)}>About</a>
           <a href="/contact" className="text-xl font-bold font-rajdhani text-gray-700 hover:text-gray-500" onClick={() => setMenuOpen(false)}>Contact</a>
         </nav>
