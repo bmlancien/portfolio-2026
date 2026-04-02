@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ProjectHeader({ organization, funding, years, title, skills }) {
   return (
-    <div className="max-w-8xl mx-auto px-6 lg:px-12 pt-16 pb-12">
+    <div className="max-w-8xl mx-auto px-6 lg:px-12 pt-24 lg:pt-32 pb-12">
       <div className="flex flex-wrap items-center gap-1 text-sm lg:text-base xl:text-xl text-gray-500 mb-2 xl:mb-6">
         <span>{organization}</span>
         <span className="mx-2">·</span>

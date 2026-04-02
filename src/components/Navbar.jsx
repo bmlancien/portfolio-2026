@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-white border-b border-gray-200 relative z-50">
+      <nav className="sticky top-0 bg-white border-b border-gray-200 z-50">
         <div className="max-w-8xl mx-auto px-6 lg:px-8 xl:px-12 py-4 flex items-center justify-between h-18">
           {/* Logo */}
           <Link to="/" onClick={() => setMenuOpen(false)}>
