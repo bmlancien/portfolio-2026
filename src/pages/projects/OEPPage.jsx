@@ -8,11 +8,9 @@ import { empowerplan as oep } from '../../data/projects/oep';
 
 export default function OEPPage() {
   return (
-    <>
-      <div className="w-full bg-white">
-        <ProjectHeader {...oep.header} />
-        <ProjectHero {...oep.hero} />
-      </div>
-    </>
+    <div className="w-full bg-white pb-6 lg:pb-12 xl:pb-24">
+      <ProjectHeader {...oep.header} />
+      <ProjectHero {...oep.hero} />
+    </div>
   );
 }

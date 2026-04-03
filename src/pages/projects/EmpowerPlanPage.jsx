@@ -8,11 +8,9 @@ import { empowerplan } from '../../data/projects/empowerplan';
 
 export default function EmpowerPlanPage() {
   return (
-    <>
-      <div className="w-full bg-white">
-        <ProjectHeader {...empowerplan.header} />
-        <ProjectHero {...empowerplan.hero} />
-      </div>
+    <div className="w-full bg-white pb-6 lg:pb-12 xl:pb-24">
+      <ProjectHeader {...empowerplan.header} />
+      <ProjectHero {...empowerplan.hero} />
       <ProjectSection title="The missing tool for non-expert decision-makers">
         <p>
           Regional planners, municipal administrators, and county officials across Germany are
@@ -119,6 +117,6 @@ export default function EmpowerPlanPage() {
           height={1031}
         />
       </ProjectSection>
-    </>
+    </div>
   );
 }
