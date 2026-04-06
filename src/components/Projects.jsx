@@ -21,16 +21,10 @@ const Projects = () => {
     {
       projectNumber: 3,
       title: 'ReEnAct',
-      description: 'Database platform used for research data in energy system analysis.',
+      description: 'A scenario planning tool for citizens shaping their region\'s energy future.',
       imageUrl: '/images/projects/reenact.svg',
       link: '/projects/reenact'
     },
-    {
-      projectNumber: 4,
-      title: 'Agora Photovoltaics and Wind Area Calculator',
-      description: 'Dashboard displaying when and where a chosen region is suitable as a wind potential area or for the installation of photovoltaic systems.',
-      imageUrl: '/images/projects/agora-calculator.png'
-    }
   ];
 
   return (
