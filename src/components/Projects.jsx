@@ -20,9 +20,10 @@ const Projects = () => {
     },
     {
       projectNumber: 3,
-      title: 'Open Energy Platform',
+      title: 'ReEnAct',
       description: 'Database platform used for research data in energy system analysis.',
-      imageUrl: '/images/projects/open-energy-platform.png'
+      imageUrl: '/images/projects/reenact.svg',
+      link: '/projects/reenact'
     },
     {
       projectNumber: 4,

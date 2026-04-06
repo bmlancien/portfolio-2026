@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const projects = [
   { label: 'EmpowerPlan', to: '/projects/epp' },
   { label: 'WWF', to: '/projects/wwf-germany' },
-  { label: 'OEP', to: '/projects/oep' },
+  { label: 'ReEnAct', to: '/projects/reenact' },
 ];
 
 const Navbar = () => {

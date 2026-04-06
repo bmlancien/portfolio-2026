@@ -6,7 +6,7 @@ import ImprintPage from './pages/ImprintPage';
 import PrivacyPage from './pages/PrivacyPage';
 import ContactPage from './pages/ContactPage';
 import EmpowerPlanPage from './pages/projects/EmpowerPlanPage';
-import OEPPage from './pages/projects/OEPPage';
+import ReEnActPage from './pages/projects/ReEnActPage';
 import WWFPage from './pages/projects/WWFPage';
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
@@ -27,7 +27,7 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/projects/epp" element={<EmpowerPlanPage />} />
             <Route path="/projects/wwf-germany" element={<WWFPage />} />
-            <Route path="/projects/oep" element={<OEPPage />} />
+            <Route path="/projects/reenact" element={<ReEnActPage />} />
           </Routes>
         </main>
         <Footer />
