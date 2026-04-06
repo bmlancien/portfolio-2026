@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer className="bg-white border-t border-gray-200">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 py-8 md:py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="max-w-8xl mx-auto px-6 md:px-12 py-8 md:py-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Copyright Section */}
           <div className="order-last md:order-first">
             <div className="flex items-center gap-2 mb-4">
@@ -13,6 +13,8 @@ const Footer = () => {
             </div>
             <p className="text-gray-600 text-sm">© {new Date().getFullYear()}. All rights reserved</p>
           </div>
+
+          <div></div>
 
           {/* Navigation Links */}
           <div className="flex flex-col items-start space-y-2">
