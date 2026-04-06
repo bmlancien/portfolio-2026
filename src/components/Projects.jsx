@@ -15,7 +15,8 @@ const Projects = () => {
       projectNumber: 2,
       title: 'WWF Energy Dashboard',
       description: 'Dashboard displaying data visualizations such as the daily updated electricity mix or CO2 trends for a climate-neutral Germany.',
-      imageUrl: '/images/projects/wwf-energy-dashboard.svg'
+      imageUrl: '/images/projects/wwf-energy-dashboard.svg',
+      link: '/projects/wwf-germany'
     },
     {
       projectNumber: 3,
