@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import ImprintPage from './pages/ImprintPage';
 import PrivacyPage from './pages/PrivacyPage';
 import ContactPage from './pages/ContactPage';
+import AboutPage from './pages/AboutPage';
 import EmpowerPlanPage from './pages/projects/EmpowerPlanPage';
 import ReEnActPage from './pages/projects/ReEnActPage';
 import WWFPage from './pages/projects/WWFPage';
@@ -24,6 +25,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/imprint" element={<ImprintPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />
+            <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/projects/epp" element={<EmpowerPlanPage />} />
             <Route path="/projects/wwf-germany" element={<WWFPage />} />

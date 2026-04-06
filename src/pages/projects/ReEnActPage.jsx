@@ -148,7 +148,7 @@ export default function reenactPage() {
           height={832}
         />
         <ProjectImage
-          src="/images/projects/reenact/reenact-second-version-2.png"
+          src="/images/projects/reenact/reenact-second-version-3.png"
           alt="Second version of the ReEnAct scenario planning tool, with a tab-based layout"
           caption="With the sliders and charts visible at the same time, users can see the impact of their changes in real time, which makes the connection between decision and consequence more immediate."
           width={1280}

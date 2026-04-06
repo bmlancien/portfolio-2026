@@ -69,7 +69,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            <a href="#about" className="text-gray-700 font-medium hover:text-gray-600">About</a>
+            <Link to="/about" className="text-gray-700 font-medium hover:text-gray-600">About</Link>
             <a href="/contact" className="text-gray-700 font-medium hover:text-gray-600">Contact</a>
             <a href="https://github.com/bmlancien" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-600">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -122,7 +122,7 @@ const Navbar = () => {
               {p.label}
             </Link>
           ))}
-          <a href="#about" className="text-xl font-bold font-rajdhani text-gray-700 hover:text-gray-500" onClick={() => setMenuOpen(false)}>About</a>
+          <Link to="/about" className="text-xl font-bold font-rajdhani text-gray-700 hover:text-gray-500" onClick={() => setMenuOpen(false)}>About</Link>
           <a href="/contact" className="text-xl font-bold font-rajdhani text-gray-700 hover:text-gray-500" onClick={() => setMenuOpen(false)}>Contact</a>
         </nav>
         <div className="flex flex-col gap-6 mt-12">
