@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function AboutPage() {
   return (
-    <section className="pt-16 pb-8 lg:pt-24 lg:pb-16">
-      <div className="max-w-7xl mx-auto px-12">
+    <section className="py-8 md:py-16 lg:py-24 pb-8 lg:pb-16">
+      <div className="max-w-7xl mx-auto px-6">
         <h1 className="text-4xl py-8">About</h1>
 
         <div className="max-w-2xl flex flex-col gap-6 text-gray-700 leading-relaxed">
