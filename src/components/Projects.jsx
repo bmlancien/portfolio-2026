@@ -45,8 +45,8 @@ const Projects = () => {
           ))}
         </div>
         <div className="mb-8 lg:mb-10">
-          <h2 className="text-center text-5xl font-bold font-rajdhani text-gray-700 mb-4">Selected Projects</h2>
-          <p className="text-center text-xl font-light text-gray-700">
+          <h2 className="text-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold font-rajdhani text-gray-700 lg:mb-4">Selected Projects</h2>
+          <p className="text-center text-base md:text-lg lg:text-xl font-light text-gray-700">
             A showcase of data-driven interfaces and tools built for the renewable energy sector
           </p>
         </div>
