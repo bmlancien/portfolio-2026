@@ -112,6 +112,16 @@ export default function LocaliserPage() {
           height={1275}
         />
       </ProjectSection>
+      <ProjectDivider />
+      <ProjectSection title="Owning the full product surface">
+        <p>
+          Six years of recurring work means the scope has grown well beyond the app. I designed 
+          and implemented the public website, and it will be migrated to a open-source Python CMS, 
+          in order to improve it visually and reducing the difficulties of a multilingual website. 
+          I've handled French localization for the platform, and produced graphic design work for 
+          presentations and the icon systems mentioned above.
+        </p>
+      </ProjectSection>
     </div>
   );
 }
