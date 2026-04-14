@@ -14,10 +14,10 @@ const ProjectCard = ({ projectNumber, title, description, imageUrl, link }) => {
       <div className="relative">
         {link ? (
           <Link to={link}>
-            <img src={imageUrl} alt={title} className="w-full h-auto rounded-lg hover:opacity-90 transition-opacity" />
+            <img src={imageUrl} alt={title} className="w-full h-auto rounded-2xl hover:opacity-90 transition-opacity" />
           </Link>
         ) : (
-          <img src={imageUrl} alt={title} className="w-full h-auto rounded-lg" />
+          <img src={imageUrl} alt={title} className="w-full h-auto rounded-xl" />
         )}
       </div>
     </div>

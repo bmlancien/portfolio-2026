@@ -5,6 +5,7 @@ const projects = [
   { label: 'EmpowerPlan', to: '/projects/epp' },
   { label: 'WWF', to: '/projects/wwf-germany' },
   { label: 'ReEnAct', to: '/projects/reenact' },
+  { label: 'Localiser', to: '/projects/localiser' },
 ];
 
 const Navbar = () => {

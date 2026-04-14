@@ -9,6 +9,7 @@ import AboutPage from './pages/AboutPage';
 import EmpowerPlanPage from './pages/projects/EmpowerPlanPage';
 import ReEnActPage from './pages/projects/ReEnActPage';
 import WWFPage from './pages/projects/WWFPage';
+import LocaliserPage from './pages/projects/LocaliserPage';
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
@@ -30,6 +31,7 @@ function App() {
             <Route path="/projects/epp" element={<EmpowerPlanPage />} />
             <Route path="/projects/wwf-germany" element={<WWFPage />} />
             <Route path="/projects/reenact" element={<ReEnActPage />} />
+            <Route path="/projects/localiser" element={<LocaliserPage />} />
           </Routes>
         </main>
         <Footer />
