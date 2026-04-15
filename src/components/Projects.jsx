@@ -30,7 +30,7 @@ const Projects = () => {
       projectNumber: 4,
       title: 'Localiser',
       description: 'A digital platform for EV charging and hydrogen infrastructure planning.',
-      imageUrl: '/images/projects/localiser.svg',
+      imageUrl: '/images/projects/localiser.png',
       link: '/projects/localiser'
     },
   ];

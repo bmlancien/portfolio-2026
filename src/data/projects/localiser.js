@@ -4,7 +4,7 @@ export const localiser = {
     funding: '',
     years: '2018-2020, 2022-2026',
     title: 'Lead Designer for an EV Charging and Hydrogen Infrastructure Planning Platform',
-    skills: ['UX/UI design', 'UI development', 'Map design', 'Visual design'],
+    skills: ['UX/UI design', 'UI development', 'Visual design', 'Map design'],
   },
   hero: {
     srcLarge: '/images/projects/localiser/localiser-hero.svg',
