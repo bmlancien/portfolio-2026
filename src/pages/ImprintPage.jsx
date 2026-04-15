@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ImprintPage() {
   return (
-    <section className="pt-16 pb-8 lg:pt-24 lg:pb-16">
+    <section className="py-8 md:py-16 lg:py-24 pb-12 md:pb-20 lg:pb-32">
       <div className="max-w-7xl mx-auto px-12">
         <h1 className="text-4xl py-8">Imprint</h1>
 

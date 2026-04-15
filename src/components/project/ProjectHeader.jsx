@@ -4,7 +4,7 @@ export default function ProjectHeader({ organization, funding, years, title, ski
   return (
     <div className="max-w-8xl mx-auto px-6 lg:px-12 pt-12 lg:pt-18 xl:pt-24 lg:pt-32 pb-12">
       <div className="flex flex-wrap items-center gap-1 text-sm lg:text-base xl:text-xl text-gray-500 mb-2 xl:mb-6">
-        <span>{organization} · {funding} · {years}</span>
+        <span>{[organization, funding, years].filter(Boolean).join(' · ')}</span>
       </div>
       <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-800 font-rajdhani leading-tight mb-4 xl:mb-8 max-w-7xl">
         {title}

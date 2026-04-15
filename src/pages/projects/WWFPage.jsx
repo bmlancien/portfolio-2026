@@ -8,7 +8,7 @@ import { wwf } from '../../data/projects/wwf';
 
 export default function WWFPage() {
   return (
-    <div className="w-full bg-white pb-6 lg:pb-12 xl:pb-24">
+    <div className="w-full bg-white pb-10 lg:pb-16 xl:pb-28">
       <ProjectHeader {...wwf.header} />
       <ProjectHero {...wwf.hero} />
       <ProjectSection title="Let’s bring energy data to life">

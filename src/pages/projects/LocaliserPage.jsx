@@ -8,7 +8,7 @@ import { localiser } from '../../data/projects/localiser';
 
 export default function LocaliserPage() {
   return (
-    <div className="w-full bg-white pb-6 lg:pb-12 xl:pb-24">
+    <div className="w-full bg-white pb-10 lg:pb-16 xl:pb-28">
       <ProjectHeader {...localiser.header} />
       <ProjectHero {...localiser.hero} />
       <ProjectSection title="A tool for both site planning and hydrogen along the value chain">

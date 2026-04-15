@@ -8,7 +8,7 @@ import { reenact as reenact } from '../../data/projects/reenact';
 
 export default function reenactPage() {
   return (
-    <div className="w-full bg-white pb-6 lg:pb-12 xl:pb-24">
+    <div className="w-full bg-white pb-10 lg:pb-16 xl:pb-28">
       <ProjectHeader {...reenact.header} />
       <ProjectHero {...reenact.hero} />
       <ProjectSection title="A complex topic and a skeptical audience">
