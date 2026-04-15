@@ -13,10 +13,12 @@ import LocaliserPage from './pages/projects/LocaliserPage';
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
+import { LanguageProvider } from './context/LanguageContext';
 import './App.css';
 
 function App() {
   return (
+    <LanguageProvider>
     <BrowserRouter>
       <div className="bg-white flex flex-col min-h-screen">
         <ScrollToTop />
@@ -38,6 +40,7 @@ function App() {
         <Analytics />
       </div>
     </BrowserRouter>
+    </LanguageProvider>
   );
 }
 

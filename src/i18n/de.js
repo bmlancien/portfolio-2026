@@ -474,6 +474,13 @@ export const en = {
             },
           ],
         },
+        {
+          title: 'Die volle Produktoberfläche besitzen',
+          body: [
+            "Sechs Jahre wiederkehrender Arbeit bedeuten, dass der Umfang weit über die App hinausgewachsen ist. Ich habe die öffentliche Website gestaltet und implementiert, die auf ein Open-Source-Python-CMS migriert wird, um sie visuell zu verbessern und die Schwierigkeiten einer mehrsprachigen Website zu reduzieren. Ich habe die französische Lokalisierung für die Plattform übernommen und Grafikdesign-Arbeiten für Präsentationen und die oben erwähnten Icon-Systeme erstellt.",
+          ],
+          images: [],
+        },
       ],
     },
   },

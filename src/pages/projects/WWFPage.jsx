@@ -5,114 +5,82 @@ import ProjectSection from '../../components/project/ProjectSection';
 import ProjectImage from '../../components/project/ProjectImage';
 import ProjectDivider from '../../components/project/ProjectDivider';
 import { wwf } from '../../data/projects/wwf';
+import useT from '../../hooks/useT';
 
 export default function WWFPage() {
+  const t = useT();
+  const s = t.projects.wwf.sections;
+  const h = t.projects.wwf.header;
+
   return (
     <div className="w-full bg-white pb-10 lg:pb-16 xl:pb-28">
-      <ProjectHeader {...wwf.header} />
+      <ProjectHeader
+        organization={wwf.header.organization}
+        years={wwf.header.years}
+        title={h.title}
+        funding={h.funding}
+        skills={h.skills}
+      />
       <ProjectHero {...wwf.hero} />
-      <ProjectSection title="Let’s bring energy data to life">
-        <p>
-          WWF Germany needed a way to display energy data to everyday visitors to their website. 
-          The challenge was making that data feel meaningful and legible to someone with no 
-          background in energy systems. The brief called for a set of dynamic, interactive 
-          visualizations that could be included as an iframe while keeping WWF's visual identity.
-        </p>
+      <ProjectSection title={s[0].title}>
+        <p>{s[0].body[0]}</p>
       </ProjectSection>
       <ProjectDivider />
-      <ProjectSection title="The starting point">
-        <p>
-          The project began with rough sketches from the partner team: a set of chart concepts that 
-          captured what they wanted to communicate. My first task was to turn those sketches into 
-          workable mockups and, in doing so, ask the more fundamental question: what is each 
-          visualization actually trying to say? That question drove every design decision that followed.
-        </p>
-        <p>
-          Responsiveness was part of the conversation from the start. Because the visualizations would 
-          be embedded across different pages and screen sizes, I had to think about mobile layouts 
-          early — before the designs were locked in — rather than retrofitting them at the end. This 
-          shaped how I approached the grid structure and how much information each chart could carry at 
-          smaller sizes.
-        </p>
+      <ProjectSection title={s[1].title}>
+        <p>{s[1].body[0]}</p>
+        <p>{s[1].body[1]}</p>
         <ProjectImage
           src="/images/projects/wwf/wwf-responsive.svg"
-          alt="Different mobile sizes for the same visualization"
-          caption="Different mobile sizes for the same visualization in order to understand what the user would see on different screen sizes"
+          alt={s[1].images[0].alt}
+          caption={s[1].images[0].caption}
           width={1440}
           height={1066}
         />
         <ProjectImage
           src="/images/projects/wwf/wwf-desktop.png"
-          alt="Desktop view of the visualization layout"
-          caption="Desktop view of the visualization layout in order to understand what the user would see on the WWF website"
+          alt={s[1].images[1].alt}
+          caption={s[1].images[1].caption}
           width={1440}
           height={2419}
         />
       </ProjectSection>
       <ProjectDivider />
-      <ProjectSection title="Simplifying without losing meaning">
-        <p>
-          Early sketches had too much information competing for attention within a single chart. 
-          Several concepts used pie charts that work poorly when comparing more than two values. 
-          Position on a common scale is generally the easiest to compare, whereas circles and angles 
-          are less precise. I therefore went for column and line charts, which are easier to decode.
-        </p>
-        <p>
-          The goal was to remove anything that made the reader work harder than necessary. Visual cues 
-          like icons, consistent brand colors, and clear typographic hierarchy were added not as 
-          decoration but as navigation so that users could orient themselves quickly within each 
-          visualization.
-        </p>
+      <ProjectSection title={s[2].title}>
+        <p>{s[2].body[0]}</p>
+        <p>{s[2].body[1]}</p>
         <ProjectImage
           src="/images/projects/wwf/wwf-first-sketches.svg"
-          alt="Visualization sketches"
-          caption="First attempts to reduce the amount of information in each visualization"
+          alt={s[2].images[0].alt}
+          caption={s[2].images[0].caption}
           width={1440}
           height={825}
         />
       </ProjectSection>
       <ProjectDivider />
-      <ProjectSection title="Interactivity as storytelling">
-        <p>
-          One of the more effective design decisions was the use of a time slider, letting users scrub 
-          through historical data at their own pace. Rather than presenting a static snapshot, it 
-          turned each chart into a small narrative: you could watch Germany's electricity mix shift 
-          year by year, or trace the relationship between CO₂ concentration and temperature across 
-          decades. The data told its own story once the interface got out of the way.
-        </p>
+      <ProjectSection title={s[3].title}>
+        <p>{s[3].body[0]}</p>
         <ProjectImage
           src="/images/projects/wwf/wwf-frames.svg"
-          alt="WWF visualization mockups"
-          caption="The user can scrub through the data with a time slider, which turns each chart into a small narrative over time"
+          alt={s[3].images[0].alt}
+          caption={s[3].images[0].caption}
           width={1440}
           height={844}
         />
       </ProjectSection>
       <ProjectDivider />
-      <ProjectSection title="Results">
-        <p>
-          The final dashboard comprised 11 dynamic visualizations, covering topics from transport 
-          emissions to the growth of renewable energy sources to daily electricity production. Each 
-          was responsive and designed for iframe integration, so it could be embedded flexibly across 
-          the WWF Germany site without layout friction on any screen size.
-        </p>
+      <ProjectSection title={s[4].title}>
+        <p>{s[4].body[0]}</p>
         <ProjectImage
           src="/images/projects/wwf/wwf-frames2.png"
-          alt="WWF visualization mockups"
-          caption="The final dashboard comprised 11 dynamic visualizations, covering topics from transport emissions to the growth of renewable energy sources to daily electricity production."
+          alt={s[4].images[0].alt}
+          caption={s[4].images[0].caption}
           width={1440}
           height={844}
         />
       </ProjectSection>
       <ProjectDivider />
-      <ProjectSection title="What I took from it">
-        <p>
-          Data visualization design always starts with the same question: what do we want the reader 
-          to understand? Everything else, like chart type, color or interaction, follows from that. 
-          Simple charts are often more effective than complex ones precisely because the reader can 
-          focus on the data instead of decoding the format. The harder skill is knowing when a custom 
-          chart adds real value and when it just adds noise.
-        </p>
+      <ProjectSection title={s[5].title}>
+        <p>{s[5].body[0]}</p>
       </ProjectSection>
     </div>
   );

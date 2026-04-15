@@ -1,17 +1,21 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-
-const projects = [
-  { label: 'EmpowerPlan', to: '/projects/epp' },
-  { label: 'WWF', to: '/projects/wwf-germany' },
-  { label: 'ReEnAct', to: '/projects/reenact' },
-  { label: 'Localiser', to: '/projects/localiser' },
-];
+import useT from '../hooks/useT';
+import { useLanguage } from '../context/LanguageContext';
 
 const Navbar = () => {
+  const t = useT();
+  const { language, switchLanguage } = useLanguage();
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
+
+  const projects = [
+    { label: 'EmpowerPlan', to: '/projects/epp' },
+    { label: 'WWF', to: '/projects/wwf-germany' },
+    { label: 'ReEnAct', to: '/projects/reenact' },
+    { label: 'Localiser', to: '/projects/localiser' },
+  ];
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -42,7 +46,7 @@ const Navbar = () => {
                 className="nav-underline flex items-center gap-1 text-gray-700 font-medium hover:text-gray-600 focus:outline-none"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
               >
-                Projects
+                {t.nav.projects}
                 <svg
                   width="16" height="16" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" strokeWidth="2" strokeLinecap="round"
@@ -70,8 +74,22 @@ const Navbar = () => {
               </div>
             </div>
 
-            <Link to="/about" className="nav-underline text-gray-700 font-medium hover:text-gray-600">About</Link>
-            <a href="/contact" className="nav-underline text-gray-700 font-medium hover:text-gray-600">Contact</a>
+            <Link to="/about" className="nav-underline text-gray-700 font-medium hover:text-gray-600">{t.nav.about}</Link>
+            <a href="/contact" className="nav-underline text-gray-700 font-medium hover:text-gray-600">{t.nav.contact}</a>
+
+            {/* Language toggle */}
+            <div className="flex items-center gap-1 text-sm font-medium text-gray-400">
+              <button
+                onClick={() => switchLanguage('en')}
+                className={language === 'en' ? 'text-gray-800 font-semibold' : 'hover:text-gray-600 transition-colors'}
+              >EN</button>
+              <span>·</span>
+              <button
+                onClick={() => switchLanguage('de')}
+                className={language === 'de' ? 'text-gray-800 font-semibold' : 'hover:text-gray-600 transition-colors'}
+              >DE</button>
+            </div>
+
             <a href="https://github.com/bmlancien" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-600">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 2C10.6868 2 9.38642 2.25866 8.17317 2.7612C6.95991 3.26375 5.85752 4.00035 4.92893 4.92893C3.05357 6.8043 2 9.34784 2 12C2 16.42 4.87 20.17 8.84 21.5C9.34 21.58 9.5 21.27 9.5 21V19.31C6.73 19.91 6.14 17.97 6.14 17.97C5.68 16.81 5.03 16.5 5.03 16.5C4.12 15.88 5.1 15.9 5.1 15.9C6.1 15.97 6.63 16.93 6.63 16.93C7.5 18.45 8.97 18 9.54 17.76C9.63 17.11 9.89 16.67 10.17 16.42C7.95 16.17 5.62 15.31 5.62 11.5C5.62 10.39 6 9.5 6.65 8.79C6.55 8.54 6.2 7.5 6.75 6.15C6.75 6.15 7.59 5.88 9.5 7.17C10.29 6.95 11.15 6.84 12 6.84C12.85 6.84 13.71 6.95 14.5 7.17C16.41 5.88 17.25 6.15 17.25 6.15C17.8 7.5 17.45 8.54 17.35 8.79C18 9.5 18.38 10.39 18.38 11.5C18.38 15.32 16.04 16.16 13.81 16.41C14.17 16.72 14.5 17.33 14.5 18.26V21C14.5 21.27 14.66 21.59 15.17 21.5C19.14 20.16 22 16.42 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2Z" fill="#383C43"/>
@@ -123,8 +141,21 @@ const Navbar = () => {
               {p.label}
             </Link>
           ))}
-          <Link to="/about" className="text-xl font-bold font-rajdhani text-gray-700 hover:text-gray-500" onClick={() => setMenuOpen(false)}>About</Link>
-          <a href="/contact" className="text-xl font-bold font-rajdhani text-gray-700 hover:text-gray-500" onClick={() => setMenuOpen(false)}>Contact</a>
+          <Link to="/about" className="text-xl font-bold font-rajdhani text-gray-700 hover:text-gray-500" onClick={() => setMenuOpen(false)}>{t.nav.about}</Link>
+          <a href="/contact" className="text-xl font-bold font-rajdhani text-gray-700 hover:text-gray-500" onClick={() => setMenuOpen(false)}>{t.nav.contact}</a>
+
+          {/* Language toggle — mobile */}
+          <div className="flex items-center gap-2 text-base font-medium text-gray-400">
+            <button
+              onClick={() => switchLanguage('en')}
+              className={language === 'en' ? 'text-gray-800 font-semibold' : ''}
+            >EN</button>
+            <span>·</span>
+            <button
+              onClick={() => switchLanguage('de')}
+              className={language === 'de' ? 'text-gray-800 font-semibold' : ''}
+            >DE</button>
+          </div>
         </nav>
         <div className="flex flex-col gap-6 mt-12">
           <a href="https://github.com/bmlancien" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-700 hover:text-gray-600">

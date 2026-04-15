@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useT from '../hooks/useT';
 
 const Footer = () => {
+  const t = useT();
   return (
     <footer className="bg-white border-t border-gray-200">
       <div className="max-w-8xl mx-auto px-6 md:px-12 py-8 md:py-12">
@@ -11,18 +13,18 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-4">
               <img src="/images/logo.svg" alt="Logo" className="w-48 md:w-[327px] h-auto" />
             </div>
-            <p className="text-gray-600 text-sm">© {new Date().getFullYear()}. All rights reserved</p>
+            <p className="text-gray-600 text-sm">© {new Date().getFullYear()}. {t.footer.copyright}</p>
           </div>
 
           <div></div>
 
           {/* Navigation Links */}
           <div className="flex flex-col items-start space-y-2">
-            <Link to="/projects" className="inline-block text-gray-700 font-medium hover:underline">Projects</Link>
-            <Link to="/about" className="inline-block text-gray-700 font-medium hover:underline">About</Link>
-            <Link to="/contact" className="inline-block text-gray-700 font-medium hover:underline">Contact</Link>
-            <Link to="/imprint" className="inline-block text-gray-700 font-medium hover:underline">Imprint</Link>
-            <Link to="/privacy" className="inline-block text-gray-700 font-medium hover:underline">Data Privacy</Link>
+            <Link to="/projects" className="inline-block text-gray-700 font-medium hover:underline">{t.footer.projects}</Link>
+            <Link to="/about" className="inline-block text-gray-700 font-medium hover:underline">{t.footer.about}</Link>
+            <Link to="/contact" className="inline-block text-gray-700 font-medium hover:underline">{t.footer.contact}</Link>
+            <Link to="/imprint" className="inline-block text-gray-700 font-medium hover:underline">{t.footer.imprint}</Link>
+            <Link to="/privacy" className="inline-block text-gray-700 font-medium hover:underline">{t.footer.privacy}</Link>
           </div>
 
           {/* Social Links */}
