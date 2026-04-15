@@ -60,7 +60,7 @@ const Projects = () => {
 
         {/* Projects Grid */}
         <div>
-          {projectsData.map((project) => (
+          {projectsData.map((project, index) => (
             <ProjectCard
               key={project.projectNumber}
               projectNumber={project.projectNumber}
@@ -68,6 +68,7 @@ const Projects = () => {
               description={project.description}
               imageUrl={project.imageUrl}
               link={project.link}
+              delay={index * 80}
             />
           ))}
         </div>

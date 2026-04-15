@@ -1,3 +1,44 @@
 #root {
   width: 100%;
 }
+
+/* ── Project card image: hover lift ── */
+.project-card-image {
+  transition: transform 200ms ease-out, box-shadow 200ms ease-out;
+}
+
+.project-card-image:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+/* ── Nav link: underline expand ── */
+.nav-underline {
+  position: relative;
+}
+
+.nav-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background-color: currentColor;
+  transition: width 200ms ease-out;
+}
+
+.nav-underline:hover::after {
+  width: 100%;
+}
+
+/* ── Respect prefers-reduced-motion ── */
+@media (prefers-reduced-motion: reduce) {
+  .project-card-image {
+    transition: none;
+  }
+
+  .nav-underline::after {
+    transition: none;
+  }
+}
