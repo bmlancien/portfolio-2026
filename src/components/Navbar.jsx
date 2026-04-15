@@ -131,6 +131,18 @@ const Navbar = () => {
         }`}
       >
         <nav className="flex flex-col gap-4">
+          {/* Language toggle — mobile */}
+          <div className="flex justify-end items-center gap-2 text-base font-medium text-gray-400">
+            <button
+              onClick={() => switchLanguage('en')}
+              className={language === 'en' ? 'text-gray-800 font-semibold' : ''}
+            >EN</button>
+            <span>·</span>
+            <button
+              onClick={() => switchLanguage('de')}
+              className={language === 'de' ? 'text-gray-800 font-semibold' : ''}
+            >DE</button>
+          </div>
           {projects.map((p) => (
             <Link
               key={p.to}
@@ -144,19 +156,6 @@ const Navbar = () => {
           <div className="border-b border-gray-200"></div>
           <Link to="/about" className="text-xl font-bold font-rajdhani text-gray-700 hover:text-gray-500" onClick={() => setMenuOpen(false)}>{t.nav.about}</Link>
           <a href="/contact" className="text-xl font-bold font-rajdhani text-gray-700 hover:text-gray-500" onClick={() => setMenuOpen(false)}>{t.nav.contact}</a>
-
-          {/* Language toggle — mobile */}
-          <div className="flex items-center gap-2 text-base font-medium text-gray-400">
-            <button
-              onClick={() => switchLanguage('en')}
-              className={language === 'en' ? 'text-gray-800 font-semibold' : ''}
-            >EN</button>
-            <span>·</span>
-            <button
-              onClick={() => switchLanguage('de')}
-              className={language === 'de' ? 'text-gray-800 font-semibold' : ''}
-            >DE</button>
-          </div>
         </nav>
         <div className="border-b border-gray-200 pb-4"></div>
         <div className="flex flex-col gap-4 mt-4">
