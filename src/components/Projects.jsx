@@ -1,35 +1,36 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import FadeInView from './FadeInView';
+import { en } from '../i18n/en';
 
 const Projects = () => {
   // Projects data - easily extensible for future projects
   const projectsData = [
     {
+      id: 'empowerplan',
       projectNumber: 1,
       title: 'EmpowerPlan',
-      description: 'Web app visualizing the regional energy system of a german region and aims at creating a trans-disciplinary dialogue between decision-makers.',
       imageUrl: '/images/projects/empowerplan.png',
       link: '/projects/epp'
     },
     {
+      id: 'wwf',
       projectNumber: 2,
       title: 'WWF Energy Dashboard',
-      description: 'Dashboard displaying data visualizations such as the daily updated electricity mix or CO2 trends for a climate-neutral Germany.',
       imageUrl: '/images/projects/wwf-energy-dashboard.svg',
       link: '/projects/wwf-germany'
     },
     {
+      id: 'reenact',
       projectNumber: 3,
       title: 'ReEnAct',
-      description: 'A scenario planning tool for citizens shaping their region\'s energy future.',
       imageUrl: '/images/projects/reenact.svg',
       link: '/projects/reenact'
     },
     {
+      id: 'localiser',
       projectNumber: 4,
       title: 'Localiser',
-      description: 'A digital platform for EV charging and hydrogen infrastructure planning.',
       imageUrl: '/images/projects/localiser.png',
       link: '/projects/localiser'
     },
@@ -53,7 +54,7 @@ const Projects = () => {
               key={project.projectNumber}
               projectNumber={project.projectNumber}
               title={project.title}
-              description={project.description}
+              description={en.projectsSection.cards[project.id].description}
               imageUrl={project.imageUrl}
               link={project.link}
               delay={index * 80}
