@@ -11,6 +11,7 @@ export default function LocaliserPage() {
     <div className="w-full bg-white pb-10 lg:pb-16 xl:pb-28">
       <ProjectHeader {...localiser.header} />
       <ProjectHero {...localiser.hero} />
+      <div className="mt-12 lg:mt-16 xl:mt-24"></div>
       <ProjectSection title="A tool for both site planning and hydrogen along the value chain">
         <p>
           Localiser is a web application for EV charging infrastructure planning. It helps 
