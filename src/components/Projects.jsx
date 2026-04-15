@@ -38,19 +38,6 @@ const Projects = () => {
     <section id="projects" className="bg-white">
       <div className="max-w-8xl mx-auto px-6 lg:px-8 xl:px-12 pt-0 2xl:pt-8 pb-12 lg:pb-20">
         {/* Section Header */}
-        {/* Downward arrows indicating scrollable content */}
-        <div className="flex justify-center space-x-2 mb-4">
-          {[0, 1, 2].map((i) => (
-            <span
-              key={i}
-              className="text-3xl text-gray-400 animate-float"
-              style={{ animationDelay: `${i * 0.15}s` }}
-              aria-hidden="true"
-            >
-              ↓
-            </span>
-          ))}
-        </div>
         <div className="mb-8 lg:mb-10">
           <h2 className="text-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold font-rajdhani text-gray-700 lg:mb-4">Selected Projects</h2>
           <p className="text-center text-base md:text-lg lg:text-xl font-light text-gray-700">
