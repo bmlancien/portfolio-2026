@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
+import FadeInView from './FadeInView';
 
 const Projects = () => {
   // Projects data - easily extensible for future projects
@@ -38,12 +39,12 @@ const Projects = () => {
     <section id="projects" className="bg-white">
       <div className="max-w-8xl mx-auto px-6 lg:px-8 xl:px-12 pt-0 2xl:pt-8 pb-12 lg:pb-20">
         {/* Section Header */}
-        <div className="mb-8 lg:mb-10">
+        <FadeInView className="mb-8 lg:mb-10">
           <h2 className="text-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold font-rajdhani text-gray-700 lg:mb-4">Selected Projects</h2>
           <p className="text-center text-base md:text-lg lg:text-xl font-light text-gray-700">
             A showcase of data-driven interfaces and tools built for the renewable energy sector
           </p>
-        </div>
+        </FadeInView>
 
         {/* Projects Grid */}
         <div>
