@@ -56,10 +56,11 @@ export const en = {
   about: {
     heading: 'About',
     paragraphs: [
-      "I'm a UX/UI designer specialising in the energy transition — the tools, web interfaces, and data visualisations that help researchers, planners, policymakers, and common citizens make sense of complex systems.",
+      "I'm a UX/UI designer specialising in the energy transition — the tools, web interfaces, and data visualisations that help researchers, planners, policymakers, and non-experts make sense of complex systems.",
       "For the past eight years I've worked with research institutes, think tanks, and startups, designing web applications and interactive tools for problems like regional energy planning, charging infrastructure, sustainable transportation, and off-grid microgrid solutions. I handle both the design and the visual frontend implementation, which means fewer handoff gaps and more considered detail in the final product.",
       "My background spans applied arts training, a science degree, and eight years of hands-on work in the energy sector, reinforced more recently by TU Delft's certificate programme in Intelligent and Integrated Energy Systems.",
-      "Outside client projects, I make illustrations and have shown work in exhibitions. I'm based in Lisbon, work remotely across Europe, and have a high interest in how complex systems, such as energy or cities, organise themselves.",
+      "I'm based in Lisbon, work remotely across Europe, and have a high interest in how complex systems, such as energy or cities, organise themselves.",
+      { pre: "If that sounds like a fit, ", linkText: "get in touch", href: "https://www.linkedin.com/in/blancien/", post: "." },
     ],
   },
 

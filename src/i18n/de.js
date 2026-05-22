@@ -59,7 +59,8 @@ export const en = {
       'Ich bin UX/UI-Designer mit Spezialisierung auf die Energiewende – auf die Tools, Web-Interfaces und Datenvisualisierungen, die Forschenden, Planern, Entscheidungsträgern und der breiten Öffentlichkeit helfen, komplexe Systeme zu verstehen.',
       'In den vergangenen acht Jahren habe ich mit Forschungsinstituten, Think Tanks und Startups zusammengearbeitet und Web-Applikationen sowie interaktive Tools für Themen wie regionale Energieplanung, Ladeinfrastruktur, nachhaltige Mobilität und Offgrid Systeme entwickelt. Da ich sowohl das Design als auch die visuelle Frontend-Umsetzung übernehme, entfallen Übergabeverluste, und das Endprodukt gewinnt an Sorgfalt und Tiefe.',
       'Mein Hintergrund verbindet eine kunsthandwerkliche Ausbildung, ein naturwissenschaftliches Studium und acht Jahre praktische Erfahrung im Energiesektor, ergänzt durch das Zertifikatsprogramm „Intelligent and Integrated Energy Systems" der TU Delft.',
-      'Neben Kundenprojekten erstelle ich Illustrationen und habe an Ausstellungen teilgenommen. Ich lebe in Lissabon, arbeite remote für Kunden in ganz Europa und beschäftige mich intensiv damit, wie sich komplexe Systeme, etwa Energie oder Städte, selbst organisieren.',
+      'Ich lebe in Lissabon, arbeite remote für Kunden in ganz Europa und beschäftige mich intensiv damit, wie sich komplexe Systeme, etwa Energie oder Städte, selbst organisieren.',
+      { pre: '', linkText: 'Sprechen Sie mich gerne an', href: 'https://www.linkedin.com/in/blancien/', post: '. Ich freue mich über neue Projekte im Energiebereich.' },
     ],
   },
 
