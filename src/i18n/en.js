@@ -67,7 +67,7 @@ export const en = {
   // ─── Contact page ──────────────────────────────────────────────────────────
   contactPage: {
     heading: 'Contact',
-    intro: 'Feel free to reach out by email:',
+    intro: "I'm always happy to connect on new projects in the energy space.",
   },
 
   // ─── Imprint page ──────────────────────────────────────────────────────────
