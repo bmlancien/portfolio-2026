@@ -27,11 +27,14 @@ export default function LocaliserPage() {
       <ProjectSection title={s[0].title}>
         <p>{s[0].body[0]}</p>
         <p>{s[0].body[1]}</p>
+        <p>{s[0].body[2]}</p>
       </ProjectSection>
       <ProjectDivider />
       <ProjectSection title={s[1].title}>
         <p>{s[1].body[0]}</p>
         <p>{s[1].body[1]}</p>
+        <p>{s[1].body[2]}</p>
+        <p>{s[1].body[3]}</p>
         <ProjectImage
           src="/images/projects/localiser/localiser-lis.png"
           alt={s[1].images[0].alt}
@@ -81,6 +84,12 @@ export default function LocaliserPage() {
       <ProjectDivider />
       <ProjectSection title={s[4].title}>
         <p>{s[4].body[0]}</p>
+        <p>{s[4].body[1]}</p>
+      </ProjectSection>
+      <ProjectDivider />
+      <ProjectSection title={s[5].title}>
+        <p>{s[5].body[0]}</p>
+        <p>{s[5].body[1]}</p>
       </ProjectSection>
     </div>
   );

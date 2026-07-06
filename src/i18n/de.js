@@ -429,75 +429,87 @@ export const en = {
 
     localiser: {
       header: {
-        title: 'Lead Designer für eine Plattform zur Ladeinfrastrukturplanung',
+        title: 'Sieben Jahre als Design-Lead für eine EV-Ladeinfrastruktur-Plattform',
         funding: '',
         tagline: [
           'Design-Lead seit 2018, direkte Zusammenarbeit mit dem Führungsteam',
           'Die Plattform wird von Ladepunktbetreibern, Kommunen und Investoren in Deutschland und anderen europäischen Ländern genutzt',
           'Vom UI-Design zur vollen Produktoberfläche: App, Website, Icon-Systeme, französische Lokalisierung',
         ],
-        skills: ['UX/UI-Design', 'UI-Entwicklung', 'Kartendesign', 'Visual Design'],
+        skills: ['Produktdesign', 'UX/UI', 'Kartendesign', 'UI-Entwicklung', 'Visual Design'],
       },
       sections: [
         {
-          title: 'Ein Tool für Standortplanung und Wasserstoff entlang der Wertschöpfungskette',
+          title: 'Was Localiser macht – und meine Rolle darin',
           body: [
-            'Localiser ist eine Web-Applikation für die Planung von EV-Ladeinfrastruktur. Sie hilft Planern, Investoren und Kommunen, geeignete Standorte zu identifizieren, indem geografische Daten mit Planungs- und Bewertungstools kombiniert werden. Die Plattform hat sich seitdem zu einem Marktplatz für Wasserstoffinfrastruktur erweitert und eine zweite Domäne mit eigenen Datenschichten und Nutzerflüssen hinzugewonnen.',
-            'Ich bin seit den frühen Phasen des Produkts der de-facto-Design-Lead und arbeite mit voller Designautonomie über die App, die Website und begleitende visuelle Arbeiten hinweg.',
+            'Localiser ist eine Web-Plattform für die Planung von EV-Ladeinfrastruktur. Die Nutzerinnen und Nutzer müssen eine Frage beantworten: Ist das ein guter Platz für eine Ladestation? Die Plattform kombiniert geografische Daten, Nachfrageindikatoren und Planungstools, um diese Entscheidung zu unterstützen. In den letzten Jahren wurde sie außerdem um einen Marktplatz für Wasserstoffinfrastruktur erweitert.',
+            'Die Hauptkunden sind Ladepunktbetreiber, Kommunen und Investoren in Deutschland und anderen europäischen Ländern.',
+            'Ich bin seit 2018 Design-Lead. Ich arbeite mit voller Autonomie über die Web-App, die öffentliche Website und das visuelle Material rund um das Produkt. Entscheidungen laufen direkt zwischen mir und dem Führungsteam.',
           ],
           images: [],
         },
         {
-          title: 'Die Ladepunktansicht wuchs über das hinaus, was ein Modal fassen konnte',
+          title: 'Die wichtigste Entscheidung: Die Karte muss sichtbar bleiben',
           body: [
-            'Nutzer können potenzielle Ladepunkte auf der Karte einsehen und hinzufügen. Es ist möglich, Informationen zu ergänzen und – vor allem – die Eignung des potenziellen Ladepunkts zu bewerten. Anfangs geschah dies in einem Modal, um das Interface übersichtlich zu halten. Doch mit der Reife des Features wuchs auch sein Inhalt: Standortdaten, technische Parameter, Dateien, Zugänglichkeitsinformationen und eine Standortbewertung. Das Modal stieß an seine Grenzen.',
-            'Noch wichtiger: Die Karte zu verbergen, während Nutzer einen Standort prüften, arbeitete gegen sie. Der eigentliche Zweck des Tools ist das Verstehen eines Standorts im Kontext seiner Umgebung. Die Entscheidung, beide gleichzeitig sichtbar zu halten, war die richtige. Das Modal wurde daher zu einem persistenten Seitenpanel – die Karte bleibt stets im Blick.',
+            'Das zentrale Feature von Localiser ist die Ladepunktansicht. Nutzerinnen und Nutzer platzieren einen potenziellen Ladepunkt auf der Karte, ergänzen Informationen dazu und bewerten, ob der Standort geeignet ist.',
+            'In den frühen Jahren geschah das in einem Modal-Fenster. Es hielt das Interface übersichtlich, und damals reichte das aus. Doch das Feature wuchs weiter: Standortdaten, technische Parameter, Dateien, Zugänglichkeitsinformationen und eine vollständige Eignungsbewertung. Das Modal stieß an seine Grenzen.',
+            'Wir hätten das Modal einfach größer machen können. Aber das eigentliche Problem war nicht der Platz. Das Modal verdeckte die Karte – und die Karte ist der Grund, warum das Tool existiert. Ein Ladepunkt ergibt nur im Kontext seiner Umgebung Sinn: Was ist in der Nähe? Wo kommt die Nachfrage her? Wie sieht die Konkurrenz aus? Die Karte zu verbergen, während der Nutzer einen Standort prüft, arbeitet direkt gegen seine Denkweise.',
+            'Also wurde das Modal zu einem persistenten Seitenpanel. Nutzerinnen und Nutzer können nun alle Details zu einem Standort lesen und gleichzeitig dessen Kontext sehen. Es ist ein einfaches Muster – aber es zu wählen bedeutete zu verstehen, wofür das Produkt wirklich da ist, und nicht nur ein Layoutproblem zu lösen.',
           ],
           images: [
             {
-              alt: 'Vom Modal zum persistenten Seitenpanel.',
-              caption: 'Vom Modal zum persistenten Seitenpanel. Das Feature entwickelte sich zu einem Informationszentrum für den Standort – die Karte im Blick zu behalten war entscheidend für den Nutzerfluss.',
+              alt: 'Vom Modal zum persistenten Seitenpanel',
+              caption: 'Die Ladepunktansicht wechselte vom Modal zum persistenten Seitenpanel – die Karte bleibt stets neben den Standortdetails sichtbar.',
             },
           ],
         },
         {
-          title: 'Der Bewertungsbereich brauchte eine andere Art von Struktur',
+          title: 'Die Eignungsbewertung überschaubar machen',
           body: [
-            'Innerhalb der Ladepunktansicht stellte die Eignungsbewertung ein eigenes Leseproblem dar. Das ursprüngliche Design verwendete eine Tabelle für Schlüsselwerte und eine flache Liste für zusätzliche Indikatoren – funktional, aber kognitiv eintönig. Alles hatte dasselbe visuelle Gewicht, was es schwer machte, schnell zu erkennen, was zählte.',
-            'Die Liste wurde zu kategorisierten Boxen, die verwandte Indikatoren unter klaren Überschriften gruppierten. Die Tabelle blieb. Das Ergebnis war ein Bereich, den Nutzer überfliegen statt lesen konnten – mit einer Struktur, die widerspiegelte, wie die Informationen tatsächlich organisiert waren, nicht nur wie sie als Rohdaten ankamen.',
+            'In der Ladepunktansicht hatte die Eignungsbewertung ihr eigenes Problem. Das ursprüngliche Design war eine Tabelle für die wichtigsten Werte und eine lange, flache Liste für alles andere. Alle Informationen hatten dasselbe visuelle Gewicht. Wer eine schnelle Antwort wollte, musste alles lesen.',
+            'Ich gruppierte die Indikatoren in kategorisierte Boxen mit klaren Überschriften und behielt die Tabelle für die Schlüsselwerte. Jetzt lässt sich der Bereich überfliegen statt lesen. Die Struktur folgt der Art, wie Nutzer über einen Standort nachdenken – nicht der Art, wie die Daten vom Backend geliefert werden.',
           ],
           images: [
             {
-              alt: 'Wechsel vom ursprünglichen Tabellen- und Listendesign zum neuen Design mit kategorisierten Boxen.',
-              caption: 'Wechsel vom ursprünglichen Tabellen- und Listendesign zum neuen Design mit kategorisierten Boxen. Das neue Design hat eine klare Hierarchie, mit Schlüsselindikatoren in gruppierten Boxen.',
+              alt: 'Die Eignungsbewertung als kategorisierte Boxen',
+              caption: 'Die Gruppierung von Indikatoren in kategorisierte Boxen macht den Bereich überfliegbar. Die Tabelle blieb für die Schlüsselwerte; die lange flache Liste wurde zu strukturierten Gruppen.',
             },
           ],
         },
         {
-          title: '40+ Ebenen, zwei Domänen, ein kohärentes visuelles System',
+          title: '40+ Kartenebenen, zwei Domänen, ein visuelles System',
           body: [
-            'Der Digitalatlas, ein Hauptfeature der Web-App, aggregiert über 40 Datenschichten: bestehende Ladeinfrastruktur, Netzkapazität, Nachfragepotenzial, Points of Interest, Flächennutzung und mehr. Der H2-Marktplatz hingegen verfügt über einen eigenen Satz wasserstoffspezifischer Ebenen. Jede Ebene muss visuell eigenständig, sofort erkennbar und konsistent mit den anderen sein.',
-            'Ich habe Icon-Sets für beide Domänen entworfen. Diese Arbeit liegt zwischen Datenvisualisierung und visueller Identität. Die Icons sind keine Dekoration – sie sind Teil der Art, wie Nutzer die Karte navigieren und interpretieren.',
+            'Der Digitalatlas, ein zentrales Feature der App, bündelt mehr als 40 Datenschichten: bestehende Ladeinfrastruktur, Netzkapazität, Nachfragepotenzial, Points of Interest, Flächennutzung und mehr.',
+            'Jede Ebene muss auf einen Blick erkennbar sein und gleichzeitig mit allen anderen harmonieren. Ich habe die Icon-Sets und die Farblogik für beide Domänen entwickelt. Diese Arbeit liegt zwischen Datenvisualisierung und visueller Identität: Die Icons sind keine Dekoration – sie sind das, womit Nutzerinnen und Nutzer die Karte lesen.',
           ],
           images: [
             {
-              alt: 'Verschiedene Kartenebenen',
-              caption: 'Verschiedene Kartenebenen für eine bessere Planung.',
+              alt: 'Verschiedene Kartenebenen im Digitalatlas',
+              caption: 'Verschiedene Kartenebenen für die Ladeinfrastrukturplanung.',
             },
             {
-              alt: 'Übersicht des Digitalatlas.',
-              caption: 'Übersicht des Digitalatlas. Die Karte verfügt über mehr als 40 Ebenen, aufgeteilt in verschiedene Kategorien.',
+              alt: 'Übersicht des Digitalatlas',
+              caption: 'Der Digitalatlas bündelt mehr als 40 Datenschichten, aufgeteilt in Kategorien.',
             },
             {
-              alt: 'Wasserstoffspezifische Icons für den H2-Marktplatz.',
-              caption: 'Wasserstoffspezifische Icons für den H2-Marktplatz. Diese Icons helfen Nutzern, verschiedene Arten von Wasserstoffinfrastruktur schnell zu identifizieren und zu verstehen.',
+              alt: 'Wasserstoffspezifische Icons für den H2-Marktplatz',
+              caption: 'Icon-Sets für beide Domänen. Die Icons sind keine Dekoration – sie sind das, womit Nutzerinnen und Nutzer die Karte navigieren und lesen.',
             },
           ],
         },
         {
-          title: 'Die volle Produktoberfläche besitzen',
+          title: 'Über die App hinaus',
           body: [
-            "Sechs Jahre wiederkehrender Arbeit bedeuten, dass der Umfang weit über die App hinausgewachsen ist. Ich habe die öffentliche Website gestaltet und implementiert, die auf ein Open-Source-Python-CMS migriert wird, um sie visuell zu verbessern und die Schwierigkeiten einer mehrsprachigen Website zu reduzieren. Ich habe die französische Lokalisierung für die Plattform übernommen und Grafikdesign-Arbeiten für Präsentationen und die oben erwähnten Icon-Systeme erstellt.",
+            'Sieben Jahre auf einem Produkt bedeuten, dass der Umfang wächst. Ich habe die öffentliche Website gestaltet und implementiert, die gerade auf ein Open-Source-CMS migriert wird, um die mehrsprachige Struktur einfacher wartbar zu machen. Ich habe die französische Lokalisierung der Plattform übernommen und produziere das visuelle Material rund um das Produkt: Präsentationen, Icons, visuelle Assets.',
+            'Für ein kleines Unternehmen ist das der praktische Wert eines langfristigen Designpartners: eine Person, die das Produkt, die Kunden und die visuelle Sprache kennt und über die gesamte Oberfläche hinweg verfügbar ist.',
+          ],
+          images: [],
+        },
+        {
+          title: 'Was sieben Jahre auf einem Produkt mich gelehrt haben',
+          body: [
+            'Die meisten Design-Portfolios zeigen Projekte, die ein paar Monate gedauert haben. Sieben Jahre lang an demselben Produkt zu arbeiten ist eine andere Disziplin. Jedes neue Feature muss Entscheidungen respektieren, die Jahre früher getroffen wurden. Konsistenz wird zur täglichen Aufgabe, nicht zur Style-Guide-Fußnote.',
+            'Es verändert auch die Beziehung. Nach sieben Jahren dreht sich das Gespräch weniger um Screens und mehr ums Produkt: Was soll gebaut werden, für wen, und wie erklärt man es? Das ist der Teil der Arbeit, den ich weiterentwickeln möchte.',
           ],
           images: [],
         },

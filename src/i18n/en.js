@@ -429,75 +429,87 @@ export const en = {
 
     localiser: {
       header: {
-        title: 'Lead Designer for a Charging Infrastructure Planning Platform',
+        title: 'Seven years as design lead for an EV charging infrastructure platform',
         funding: '',
         tagline: [
           'Design lead since 2018, working directly with the leadership team',
           'The platform is used by charge point operators, municipalities and investors in Germany and other European countries',
           'Scope grew from UI work to the full product surface: app, website, icon systems, French localization',
         ],
-        skills: ['UX/UI design', 'UI development', 'Map design', 'Visual design'],
+        skills: ['Product design', 'UX/UI', 'Map design', 'UI development', 'Visual design'],
       },
       sections: [
         {
-          title: 'A tool for both site planning and hydrogen along the value chain',
+          title: 'What Localiser does, and my role in it',
           body: [
-            'Localiser is a web application for EV charging infrastructure planning. It helps planners, investors, and municipalities identify viable locations by combining a geographical data with planning and assessment tools. The platform has since expanded into a marketplace for hydrogen infrastructure, adding a second domain with its own data layers and user flows.',
-            "I've been the de facto design lead since the early stages of the product, working with full design autonomy across the app, the website, and supporting visual work.",
+            'Localiser is a web platform for planning EV charging infrastructure. Its users need to answer one question: is this a good place for a charging station? The platform combines geographical data, demand indicators and planning tools to help them decide. In recent years it also expanded into a marketplace for hydrogen infrastructure.',
+            'The main customers are charge point operators, municipalities, and investors, in Germany and other European countries.',
+            'I have been the design lead since 2018. I work with full autonomy across the web app, the public website, and the visual material around the product. Decisions go directly between me and the leadership team.',
           ],
           images: [],
         },
         {
-          title: 'The charging point view grew beyond what a modal could hold',
+          title: 'The most important decision: the map must stay visible',
           body: [
-            'Users can view and add potential charging points to the map. It is possible to add information and, most importantly, evaluate the viability of the potential charging point. Early on, this was done on a modal to keep the interface clean. But as the feature matured, so did its content: location data, technical parameters, files, accessibility information, and an assessment of the site\'s viability. The modal was running out of room.',
-            'More importantly, hiding the map while users reviewed a location was working against them. The whole point of the tool is understanding a site in the context of its surroundings. Choosing to keep both visible at the same time was the right decision to take. Therefore the modal became a persistent side panel, allowing the map to always stay in view.',
+            'The core feature of Localiser is the charging point view. Users place a potential charging point on the map, add information about it, and evaluate if the location is viable.',
+            'In the early years, this happened in a modal window. It kept the interface clean, and at that time it was enough. But the feature kept growing: location data, technical parameters, files, accessibility information, and a full viability assessment. The modal was running out of space.',
+            "We could have simply made the modal bigger. But the real problem was not space. The modal covered the map — and the map is the reason the tool exists. A charging point only makes sense in its surroundings: what is nearby, where the demand comes from, what the competition looks like. Hiding the map while the user reviews a location works directly against how they think.",
+            'So the modal became a persistent side panel. The user can now read every detail about a site and see its context at the same time. It is a simple pattern, but choosing it meant understanding what the product is really for, and not just fixing a layout problem.',
           ],
           images: [
             {
-              alt: 'From a modal to a persistent side panel.',
-              caption: 'From a modal to a persistent side panel. The feature grew to be an information hub for the site, and keeping the map in view was crucial to the user flow.',
+              alt: 'From a modal to a persistent side panel',
+              caption: 'The charging point view moved from a modal window to a persistent side panel, keeping the map always visible alongside the location details.',
             },
           ],
         },
         {
-          title: 'The assessment section needed a different kind of structure',
+          title: 'Making the viability assessment scannable',
           body: [
-            'Within the charging point view, the viability assessment presented its own readability problem. The original design used a table for key values and a flat list for additional indicators, which is functional, but cognitively flat. Everything had the same visual weight, which made it hard to quickly identify what mattered.',
-            'The list became categorized boxes, grouping related indicators together under clear headings. The table stayed. The result was a section that users could scan rather than read, with structure that reflected how the information was actually organized, not just how it arrived as raw data.',
+            'Inside the charging point view, the viability assessment had its own problem. The original design was a table for key values and a long flat list for everything else. All information had the same visual weight. A user who wanted a quick answer had to read everything.',
+            'I grouped the indicators into categorized boxes with clear headings, and kept the table for the key values. Now the section can be scanned instead of read. The structure follows how users think about a site, not how the data arrives from the backend.',
           ],
           images: [
             {
-              alt: 'Change between the original table and list design and the new categorized boxes design.',
-              caption: 'Change between the original table and list design and the new categorized boxes design. The new design has a clear hierarchy, with key indicators grouped in boxes.',
+              alt: 'The viability assessment redesigned as categorized boxes',
+              caption: 'Grouping indicators into categorized boxes made the section scannable. The table stayed for the key values; the long flat list became structured groups.',
             },
           ],
         },
         {
-          title: '40+ layers, two domains, one coherent visual system',
+          title: '40+ map layers, two domains, one visual system',
           body: [
-            'The Digitalatlas, a main feature of the web app, aggregates over 40 data layers: existing charging infrastructure, grid capacity, demand potential, points of interest, land use, and more. The H2 Marketplace, on the other hand, has a separate set of hydrogen-specific layers. Each layer needs to be visually distinct, immediately recognizable, and consistent with the others.',
-            "I designed icon sets for both domains. This kind of work sits between data visualization and visual identity. The icons aren't decoration, they're part of how users navigate and interpret the map.",
+            'The Digitalatlas, a central feature of the app, brings together more than 40 data layers: existing charging infrastructure, grid capacity, demand potential, points of interest, land use, and more.',
+            'Every layer needs to be recognizable at a glance and still fit with all the others. I designed the icon sets and the color logic for both domains. This work sits between data visualization and visual identity: the icons are not decoration, they are how users read the map.',
           ],
           images: [
             {
-              alt: 'Different map layers',
-              caption: 'Different map layers for better planning.',
+              alt: 'Different map layers in the Digitalatlas',
+              caption: 'Different map layers for EV charging infrastructure planning.',
             },
             {
-              alt: 'Overview of the Digitalatlas.',
-              caption: 'Overview of the Digitalatlas. The map has over 40 layers, divided into different categories.',
+              alt: 'Overview of the Digitalatlas',
+              caption: 'The Digitalatlas brings together more than 40 data layers, divided into categories.',
             },
             {
-              alt: 'Hydrogen-specific icons for the H2 Marketplace.',
-              caption: 'Hydrogen-specific icons for the H2 Marketplace. These icons help users quickly identify and understand the different types of hydrogen infrastructure.',
+              alt: 'Hydrogen-specific icons for the H2 Marketplace',
+              caption: 'Icon sets for both domains. The icons are not decoration — they are how users read and navigate the map.',
             },
           ],
         },
         {
-          title: 'Owning the full product surface',
+          title: 'Beyond the app',
           body: [
-            "Six years of recurring work means the scope has grown well beyond the app. I designed and implemented the public website, and it will be migrated to a open-source Python CMS, in order to improve it visually and reducing the difficulties of a multilingual website. I've handled French localization for the platform, and produced graphic design work for presentations and the icon systems mentioned above.",
+            'Seven years on one product means the scope grows. I designed and implemented the public website, which is now being migrated to an open-source CMS to make the multilingual setup easier to maintain. I handled the French localization of the platform, and I produce the graphic material around the product — presentations, icons, visual assets.',
+            'For a small company, this is the practical value of a long-term design partner: one person who knows the product, the customers and the visual language, available across the whole surface.',
+          ],
+          images: [],
+        },
+        {
+          title: 'What seven years on one product taught me',
+          body: [
+            'Most design portfolios show projects that lasted a few months. Working on the same product for seven years is a different discipline. Every new feature has to respect decisions made years earlier. Consistency becomes a daily job, not a style guide.',
+            'It also changes the relationship. After seven years, the conversations are less about screens and more about the product: what to build, for whom, and how to explain it. That is the part of the work I want to grow.',
           ],
           images: [],
         },

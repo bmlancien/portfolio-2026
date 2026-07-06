@@ -1,7 +1,7 @@
 export const localiser = {
   header: {
     organization: 'Localiser',
-    years: '2018-2020, 2022-2026',
+    years: '2018-2026',
   },
   hero: {
     srcLarge: '/images/projects/localiser/localiser-hero.svg',
