@@ -182,65 +182,79 @@ export const en = {
         {
           title: 'Das fehlende Tool für Entscheidungsträger ohne Fachkenntnisse',
           body: [
-            'Regionalplaner, Gemeindeverwaltungen und Kreisbehörden in ganz Deutschland sollen Flächennutzungsentscheidungen für die Zukunft treffen. Das Problem: Es gab bis 2022 kein Tool, das ohne Data-Scientist im Raum bedienbar und gleichzeitig reich an relevanten Daten und Informationen war.',
-            'EmPowerPlan schloss diese Lücke. Als Lead-Designer arbeitete ich mit dem Reiner Lemoine Institut sowie Partnern wie dem Öko-Institut und IZT zusammen, getestet mit Stakeholdern in der Region Oderland-Spree in Brandenburg. Meine Aufgabe: ein komplexes Simulationstool für nicht-technische Entscheidungsträger nutzbar zu machen.',
+            'Regionalplaner, Gemeindeverwaltungen und Kreisbehörden in ganz Deutschland müssen Flächennutzungsentscheidungen treffen, die ihre Regionen für Jahrzehnte prägen. Das Problem: Es gab bis 2022 kein Tool, das ohne Data-Scientist im Raum bedienbar und gleichzeitig reichhaltig genug in den Daten war. Bestehende Tools waren entweder zu einfach oder zu sehr auf Experten ausgerichtet.',
+            'EmPowerPlan schloss diese Lücke. Als Lead-Designer war meine Aufgabe, ein komplexes Energiesimulationstool für Menschen nutzbar zu machen, die Regionen planen – nicht Energiesysteme.',
           ],
           images: [
             {
-              alt: 'Herausforderungen als erste Seite im EmPowerPlan-Prototyp',
-              caption: 'Nutzer starten mit dem Schritt „Herausforderungen"',
+              alt: 'Der Schritt „Herausforderungen" als Einstieg in EmPowerPlan',
+              caption: 'Nutzer starten mit dem Schritt „Herausforderungen", der den Kontext setzt, bevor sie Szenarien erkunden',
             },
           ],
         },
         {
-          title: 'Von „hier sind Daten" zu „hier stehen Sie"',
+          title: 'Die wichtigste Entscheidung: Von „hier sind Daten" zu „hier stehen Sie"',
           body: [
-            'Die Szenariovergleichsansicht durchlief im Projektverlauf eine grundlegende Weiterentwicklung. Frühe Versionen zeigten Szenariodaten klar an, etwa Windkapazitäten, PV-Ziele und Flächenbedarf, aber ohne Referenzpunkt konnten Nutzer das Gezeigte nicht einordnen. Die Lösung: Landes- und Bundesziele direkt in dieselbe Ansicht zu integrieren, sodass ein Planer die Zahlen von Oderland-Spree unmittelbar mit Brandenburg und den nationalen Zielen vergleichen konnte. Damit wurde der Szenarioscreen vom Informations-UI zum Entscheidungsunterstützungstool.',
-            'Ein Wizard-Flow (Herausforderungen → Region heute → Szenarien → Einstellungen → Ergebnisse) hielt die Gesamterfahrung auch dann navigierbar, als die Anforderungen über die Projektiterationen hinweg komplexer wurden. Vordefinierte Politikszenarien wie die Energiestrategie Brandenburg 2030 ließen sich per Klick als Ausgangspunkt auswählen – eine Orientierungshilfe für Nutzer, die nicht wussten, wo sie anfangen sollten.',
+            'Die Szenariovergleichsansicht durchlief die größte Entwicklung des Projekts.',
+            'Frühe Versionen zeigten die Szenariodaten klar: Windkapazitäten, PV-Ziele, Flächenbedarf. Die Zahlen waren korrekt und lesbar – und dennoch konnten Nutzer sie nicht einordnen. Sind 500 MW Wind viel für diese Region? Das lässt sich aus der Zahl allein nicht beantworten.',
+            'Was fehlte, war ein Referenzpunkt. Die Lösung war, Landes- und Bundesziele direkt in dieselbe Ansicht zu integrieren. Ein Planer, der die Zahlen von Oderland-Spree betrachtete, konnte nun sofort sehen, wie seine Region im Vergleich zu Brandenburg und den nationalen Zielen dasteht.',
+            'Diese eine Änderung verwandelte den Screen von einem Informationsdisplay in ein Entscheidungsunterstützungstool. Sie ist auch die deutlichste Erkenntnis, die ich aus dem Projekt mitgenommen habe: Daten werden erst dann nützlich für Entscheidungen, wenn der Leser weiß, wo er steht.',
+            'Darum herum hielt ein Wizard-Flow (Herausforderungen → Region heute → Szenarien → Einstellungen → Ergebnisse) die Erfahrung navigierbar, als das Tool mit jeder Projektiteration komplexer wurde. Vordefinierte Politikszenarien wie die Energiestrategie Brandenburg 2030 konnten mit einem Klick als Ausgangspunkt geladen werden – eine einfache Antwort für Nutzer, die nicht wussten, wo sie anfangen sollten.',
           ],
           images: [
             {
-              alt: 'Nach den ersten beiden Schritten – Herausforderungen und regionale Daten – können Nutzer im dritten Schritt Szenarien mit Landes- und Bundeszielen vergleichen',
-              caption: 'Nach den ersten beiden Schritten – Herausforderungen und regionale Daten – können Nutzer im dritten Schritt Szenarien mit Landes- und Bundeszielen vergleichen',
+              alt: 'Szenariovergleichsansicht mit Landes- und Bundeszielen als Referenz',
+              caption: 'Landes- und Bundesziele direkt in die Vergleichsansicht zu integrieren verwandelte den Screen vom Informationsdisplay in ein Entscheidungsunterstützungstool',
             },
             {
-              alt: 'Layout-Übersicht: obere Navigationsleiste mit seitlichen Panels für Parameter und Inhalte, neben Karte und Diagrammen',
-              caption: 'Layout-Übersicht: obere Navigationsleiste mit seitlichen Panels für Parameter und Inhalte, neben Karte und Diagrammen',
+              alt: 'Wizard-Navigation durch die fünf Schritte',
+              caption: 'Der Wizard-Flow (Herausforderungen → Region heute → Szenarien → Einstellungen → Ergebnisse) hielt das Tool navigierbar, als die Komplexität wuchs',
             },
           ],
         },
         {
           title: 'Das Design musste echte Komplexität tragen',
           body: [
-            'Das zugrunde liegende Modell verknüpfte regionale Energieszenarien mit nationalen Klimazielen, was eine anspruchsvolle Datenumgebung bedeutete. 26 Kartenebenen mussten lesbar koexistieren: ich löste das durch kategoriebasierte Farbgruppierungen und sequenzielle Paletten zur Differenzierung innerhalb jeder Gruppe. ECharts übernahm die Diagramme, Bootstrap hielt das Frontend einfach und wartbar, und Barrierefreiheit (Tastaturnavigation, ARIA-Strukturen, Kontrastkonformität) war von Anfang an eingebaut.',
+            'Hinter dem Interface verknüpfte das Modell regionale Energieszenarien mit nationalen Klimazielen – eine anspruchsvolle Datenumgebung.',
+            'Die Karte allein hatte 26 Ebenen, die gemeinsam lesbar bleiben mussten. Ich löste das durch kategoriebasierte Farbgruppierungen: eine Farbfamilie pro Kategorie, sequenzielle Paletten für die Unterschiede innerhalb jeder Gruppe. ECharts übernahm die Diagramme, Bootstrap hielt das Frontend einfach wartbar, und Barrierefreiheit – Tastaturnavigation, ARIA-Struktur und Kontrast – war von Anfang an eingebaut, nicht nachträglich ergänzt.',
           ],
           images: [
             {
-              alt: 'Im EmPowerPlan-Prototyp verwendete Farbpaletten',
-              caption: 'Farbpaletten für eine hohe Anzahl an Ebenen, entwickelt für den gemeinsamen Einsatz auf derselben Karte',
+              alt: 'Farbpaletten für die 26 Kartenebenen',
+              caption: 'Kategoriebasierte Farbgruppierungen mit sequenziellen Paletten – entwickelt, um bei mehreren aktiven Ebenen lesbar zu bleiben',
             },
             {
-              alt: 'Kartenansicht',
-              caption: 'Kartenansicht mit verschiedenen Informationsebenen, darunter Flächennutzung, Schutzgebiete und Potenziale erneuerbarer Energien',
+              alt: 'Kartenansicht mit mehreren aktiven Ebenen',
+              caption: 'Kartenansicht mit Datenschichten für Flächennutzung, Schutzgebiete und Potenziale erneuerbarer Energien',
             },
           ],
         },
         {
-          title: 'Mehrere Workshop-Zyklen in einer Region, messbare Veränderung als Ergebnis',
+          title: 'Workshops, Feedback, Code, wiederholen',
           body: [
-            'Das Tool wurde in Workshops mit echten Stakeholdern in Oderland-Spree getestet und iteriert. Ich arbeitete mit dem Feedback, das das Forschungsteam in jeder Sitzung sammelte, überarbeitete Prototypen und setzte die Änderungen direkt im Frontend-Code um – bereit für den nächsten Workshop-Zyklus. Da ich Design und Implementierung in einer Hand hielt, flossen Erkenntnisse aus den Workshops direkt ins Interface.',
-            'In der letzten Iteration navigierten die Teilnehmenden das Tool selbstständig und nutzten Szenariovergleiche, um reale Planungsabwägungen zu diskutieren, was genau das Ziel war.',
+            'Das Tool wurde in mehreren Workshop-Zyklen mit echten Stakeholdern in Oderland-Spree getestet. Das Forschungsteam sammelte Feedback in jeder Sitzung. Ich übersetzte dieses Feedback in Designänderungen und implementierte sie direkt im Frontend-Code, bereit für den nächsten Zyklus.',
+            'Da ich Design und Implementierung in einer Hand hielt, ging nichts zwischen Workshop und Interface verloren – und das ermöglichte eine schnellere Iteration.',
+            'In der letzten Iteration navigierten die Teilnehmenden das Tool selbstständig und nutzten die Szenariovergleiche, um reale Planungsabwägungen zu diskutieren – was genau das Ziel war.',
+            { pre: 'Das Tool ist hier zu sehen: ', linkText: 'epp.rl-institut.de', href: 'https://epp.rl-institut.de/de/', post: '' },
           ],
           images: [
             {
-              alt: 'Iterationsprozess im EmPowerPlan-Prototyp',
-              caption: 'Iterationsprozess im EmPowerPlan-Prototyp: Workshop-Feedback führte zu Designänderungen, die direkt im Frontend-Code umgesetzt und im nächsten Workshop-Zyklus erneut getestet wurden',
+              alt: 'Workshop-Iterationszyklus',
+              caption: 'Workshop-Feedback floss direkt in Designänderungen ein, die im Frontend implementiert und in der nächsten Sitzung getestet wurden',
             },
             {
-              alt: 'Ergebnisansicht',
-              caption: 'Ergebnisansicht mit verschiedenen Informationsebenen, darunter Diagramme und eine Kartenansicht',
+              alt: 'Ergebnisansicht mit Diagrammen und Karte',
+              caption: 'Ergebnisansicht mit Szenarioergebnissen in Diagrammen und auf der Karte',
             },
           ],
+        },
+        {
+          title: 'Was ich mitgenommen habe',
+          body: [
+            'Zwei Dinge. Erstens: Eine Zahl ohne Referenzpunkt ist keine Information, sondern Dekoration. Der größte Designwert in diesem Projekt entstand durch das Hinzufügen von Kontext, nicht von Daten.',
+            'Zweitens: In Forschungsprojekten ist der Kreislauf zwischen Feedback und funktionierender Software meist langsam. Eine Person für Design und Code zu haben beschleunigte diesen Kreislauf. Ich denke, dass die Geschwindigkeit dieses Kreislaufs, mehr als jede einzelne Designentscheidung, die Workshops produktiv machte.',
+          ],
+          images: [],
         },
       ],
     },

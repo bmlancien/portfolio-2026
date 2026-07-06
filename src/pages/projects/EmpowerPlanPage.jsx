@@ -37,6 +37,9 @@ export default function EmpowerPlanPage() {
       <ProjectDivider />
       <ProjectSection title={s[1].title}>
         <p>{s[1].body[0]}</p>
+        <p>{s[1].body[1]}</p>
+        <p>{s[1].body[2]}</p>
+        <p>{s[1].body[3]}</p>
         <ProjectImage
           src="/images/projects/epp/epp-scenarios.svg"
           alt={s[1].images[0].alt}
@@ -44,7 +47,7 @@ export default function EmpowerPlanPage() {
           width={1282}
           height={822}
         />
-        <p>{s[1].body[1]}</p>
+        <p>{s[1].body[4]}</p>
         <ProjectImage
           src="/images/projects/epp/epp-wizard.svg"
           alt={s[1].images[1].alt}
@@ -56,6 +59,7 @@ export default function EmpowerPlanPage() {
       <ProjectDivider />
       <ProjectSection title={s[2].title}>
         <p>{s[2].body[0]}</p>
+        <p>{s[2].body[1]}</p>
         <ProjectImage
           src="/images/projects/epp/epp-palettes.png"
           alt={s[2].images[0].alt}
@@ -82,6 +86,7 @@ export default function EmpowerPlanPage() {
           height={329}
         />
         <p>{s[3].body[1]}</p>
+        <p>{s[3].body[2]}</p>
         <ProjectImage
           src="/images/projects/epp/epp-results.png"
           alt={s[3].images[1].alt}
@@ -89,6 +94,18 @@ export default function EmpowerPlanPage() {
           width={1280}
           height={1031}
         />
+        <p>
+          {s[3].body[3].pre}
+          <a href={s[3].body[3].href} target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-800 transition-colors">
+            {s[3].body[3].linkText}
+          </a>
+          {s[3].body[3].post}
+        </p>
+      </ProjectSection>
+      <ProjectDivider />
+      <ProjectSection title={s[4].title}>
+        <p>{s[4].body[0]}</p>
+        <p>{s[4].body[1]}</p>
       </ProjectSection>
     </div>
   );

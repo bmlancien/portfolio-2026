@@ -182,65 +182,79 @@ export const en = {
         {
           title: 'The missing tool for non-expert decision-makers',
           body: [
-            'Regional planners, municipal administrators, and county officials across Germany are expected to make land-use decisions for the future. The problem: as of 2022, there was no tool available that was easy enough to use without a data scientist in the room and rich enough in valuable data and information at the same time.',
-            'EmPowerPlan filled the gap. As the lead designer working with Reiner Lemoine Institut, together partners including Öko-Institut and IZT, and tested with stakeholders in the Oderland-Spree region of Brandenburg, my task was to make a complex simulation tool usable by non-expert decision-makers.',
+            'Regional planners, municipal administrators and county officials across Germany have to make land-use decisions that will shape their regions for decades. The problem: as of 2022, there was no tool that was easy enough to use without a data scientist in the room, and rich enough in data to be worth using at all. Existing tools were either too simple or too expert.',
+            'EmPowerPlan filled that gap. As lead designer, my task was to make a complex energy simulation tool usable by people who plan regions, not energy systems.',
           ],
           images: [
             {
-              alt: 'Challenges as first page in the EmPowerPlan prototype',
-              caption: 'Users start with the Challenges step',
+              alt: 'The Challenges step, the entry point to EmPowerPlan',
+              caption: 'Users start with the Challenges step, which sets the context before they explore scenarios',
             },
           ],
         },
         {
-          title: "From 'here is data' to 'here is where you stand'",
+          title: "The most important decision: from 'here is data' to 'here is where you stand'",
           body: [
-            'The scenario comparison view went through a significant evolution across the project. Early versions displayed scenario data clearly, e.g., wind capacity, PV targets and land requirements, but without a reference point, users still couldn\'t evaluate what they were seeing. The solution was to include state and national goals directly into the same view, so that a planner looking at Oderland-Spree\'s numbers could immediately see how their region compared to Brandenburg and to Germany\'s national targets. That change turned the scenario screen from an information UI into a decision support tool.',
-            'A wizard-style flow (Herausforderungen → Region heute → Szenarien → Einstellungen → Ergebnisse) kept the overall experience navigable as requirements grew in complexity across project iterations. Predefined policy scenarios like the Energiestrategie Brandenburg 2030 could be selected as a baseline with a single click, guiding users who didn\'t know where to start.',
+            'The scenario comparison view went through the biggest evolution of the project.',
+            "Early versions showed the scenario data clearly: wind capacity, PV targets, land requirements. The numbers were correct and readable, and still, users could not evaluate them. Is 500 MW of wind a lot for this region? Nobody can answer that from the number alone.",
+            'The missing piece was a reference point. The solution was to bring the state and national goals directly into the same view. A planner looking at Oderland-Spree\'s numbers could now see immediately how the region compares to Brandenburg and to Germany\'s national targets.',
+            'That one change turned the screen from an information display into a decision support tool. It is also the clearest lesson I took from the project: data becomes useful for decisions only when the reader knows where they stand.',
+            'Around this, a wizard-style flow (Herausforderungen → Region heute → Szenarien → Einstellungen → Ergebnisse) kept the experience navigable as the tool grew more complex with every project iteration. Predefined policy scenarios, like the Energiestrategie Brandenburg 2030, could be loaded as a starting point with one click — a simple answer for users who did not know where to begin.',
           ],
           images: [
             {
-              alt: 'After seeing the challenges and regional data in the first two steps, users can compare scenarios to state and national targets in the third step',
-              caption: 'After seeing the challenges and regional data in the first two steps, users can compare scenarios to state and national targets in the third step',
+              alt: 'Scenario comparison view with state and national targets as reference',
+              caption: 'Adding state and national targets directly into the comparison view turned the screen from an information display into a decision support tool',
             },
             {
-              alt: 'Layout overview: Top navigation bar, with side panels for parameters and content, next to the map and charts.',
-              caption: 'Layout overview: Top navigation bar, with side panels for parameters and content, next to the map and charts.',
+              alt: 'Wizard-style navigation flow through the five steps',
+              caption: 'The wizard flow (Herausforderungen → Region heute → Szenarien → Einstellungen → Ergebnisse) kept the tool navigable as complexity grew',
             },
           ],
         },
         {
-          title: 'On the technical side, the design had to carry real complexity',
+          title: 'The design had to carry real complexity',
           body: [
-            'The underlying model coupled regional energy scenarios with national climate targets, which was quite a challenging data environment. 26 map layers needed to coexist legibly, which I addressed through category-based color grouping and sequential palettes for differentiation within each group. ECharts handled the plotting, Bootstrap kept the frontend simple and maintainable, and accessibility, i.e., keyboard navigation, ARIA structures, contrast compliance, was built in from the start.',
+            'Behind the interface, the model coupled regional energy scenarios with national climate targets, which is quite a demanding data environment.',
+            'The map alone had 26 layers that needed to stay legible together. I solved this with category-based color grouping: one color family per category, sequential palettes for the differences inside each group. ECharts handled the charts, Bootstrap kept the frontend simple to maintain, and accessibility, i.e., keyboard navigation, ARIA structure, and contrast, was built in from the start, not added later.',
           ],
           images: [
             {
-              alt: 'Color palettes used in the EmPowerPlan prototype',
-              caption: 'Color palettes for a high number of layers, designed to work together on the same map',
+              alt: 'Color palettes for the 26 map layers',
+              caption: 'Category-based color grouping with sequential palettes for each group — designed to stay legible when multiple layers are active at once',
             },
             {
-              alt: 'Map view',
-              caption: 'Map view with different layers of information, including land use, protected areas, and renewable energy potential',
+              alt: 'Map view with multiple active layers',
+              caption: 'Map view with data layers for land use, protected areas, and renewable energy potential',
             },
           ],
         },
         {
-          title: 'Several workshop cycles in one region led to measurable change',
+          title: 'Workshops, feedback, code, repeat',
           body: [
-            'The tool was tested and iterated through workshops with actual stakeholders in Oderland-Spree. I worked from the feedback the research team gathered in each session to iterate on prototypes, then implemented the changes directly in frontend code, which were tested again in the next workshop cycle. Because I handled both design and implementation, changes moved directly from workshop feedback into the interface.',
-            'By the final iteration, participants were navigating the tool independently and using scenario comparisons to discuss real planning trade-offs, which was the point.',
+            'The tool was tested through several workshop cycles with actual stakeholders in Oderland-Spree. The research team gathered feedback in each session. I turned that feedback into design changes and implemented them directly in the frontend code, ready to be tested in the next cycle.',
+            'Because I handled both design and implementation, nothing was lost between the workshop and the interface, and this enabled faster iteration.',
+            'By the final iteration, participants were navigating the tool and using the scenario comparisons to discuss real planning trade-offs — which was the point.',
+            { pre: 'The tool can be seen here: ', linkText: 'epp.rl-institut.de', href: 'https://epp.rl-institut.de/de/', post: '' },
           ],
           images: [
             {
-              alt: 'Iteration process in the EmPowerPlan prototype',
-              caption: 'Iteration process in the EmPowerPlan prototype, with workshops leading to design changes that were implemented directly in the frontend code and tested again in the next workshop cycle',
+              alt: 'Workshop iteration cycle',
+              caption: 'Workshop feedback fed directly into design changes, which were implemented in the frontend and tested in the next session',
             },
             {
-              alt: 'Results view',
-              caption: 'Results view with different layers of information, includind charts and a map view',
+              alt: 'Results view with charts and map',
+              caption: 'Results view showing scenario outcomes across charts and the map',
             },
           ],
+        },
+        {
+          title: 'What I took from it',
+          body: [
+            'Two things. First: a number without a reference point is not information, it is decoration. Most of the design value in this project came from adding context, not adding data.',
+            'Second: in research projects, the loop between feedback and working software is usually slow. Covering design and code in one person made the loop faster. I think that the speed of that loop, more than any single design decision, is what made the workshops productive.',
+          ],
+          images: [],
         },
       ],
     },
