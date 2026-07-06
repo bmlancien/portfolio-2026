@@ -271,70 +271,71 @@ export const en = {
       },
       sections: [
         {
-          title: 'Energiedaten zum Leben erwecken',
+          title: 'Energiedaten einem breiten Publikum zugänglich machen',
           body: [
-            'WWF Deutschland benötigte eine Möglichkeit, Energiedaten für die alltäglichen Besucher ihrer Website aufzubereiten. Die Herausforderung: diese Daten für Menschen ohne Hintergrundwissen in Energiesystemen bedeutsam und verständlich zu machen. Der Auftrag umfasste einen Satz dynamischer, interaktiver Visualisierungen, die als iframe eingebettet werden konnten, im Einklang mit der visuellen Identität des WWF.',
+            'WWF Deutschland wollte Energiedaten für die alltäglichen Besucherinnen und Besucher ihrer Website aufbereiten – Menschen ohne Hintergrundwissen in Energiesystemen. Die Herausforderung: Diese Daten nicht nur korrekt, sondern bedeutsam zu machen. Der Auftrag umfasste einen Satz dynamischer, interaktiver Visualisierungen, die als iframe eingebettet werden konnten und gleichzeitig die visuelle Identität des WWF wahren.',
           ],
           images: [],
         },
         {
-          title: 'Der Ausgangspunkt',
+          title: 'Der Ausgangspunkt: Skizzen – und eine Frage',
           body: [
-            'Das Projekt begann mit groben Skizzen des Partnerteams: verschiedene Diagrammkonzepten, die festhielten, was kommuniziert werden sollte. Meine erste Aufgabe war es, diese Skizzen in umsetzbare Mockups zu überführen und dabei die grundlegendere Frage zu stellen: Was will jede Visualisierung eigentlich aussagen? Diese Frage trieb jede folgende Designentscheidung an.',
-            'Responsivität war von Anfang an Teil des Gesprächs. Da die Visualisierungen auf verschiedenen Seiten und Bildschirmgrößen eingebettet werden sollten, musste ich mobile Layouts früh mitdenken, bevor die Designs festlagen, anstatt sie nachträglich anzupassen. Das prägte meinen Umgang mit der Layout und der Informationsdichte der Diagramme auf kleineren Bildschirmen.',
+            'Das Projekt begann mit groben Skizzen des Partnerteams, die Diagrammkonzepte enthielten und festhielten, was kommuniziert werden sollte. Meine erste Aufgabe war es, diese Skizzen in umsetzbare Mockups zu überführen. Davor aber musste ich für jedes Diagramm eine grundlegendere Frage stellen: Was will diese Visualisierung eigentlich aussagen? Diese Frage trieb jede folgende Designentscheidung an.',
+            'Responsivität war von Anfang an Teil des Denkens. Da die Visualisierungen auf verschiedenen Seiten und Bildschirmgrößen eingebettet werden sollten, mussten mobile Layouts früh gestaltet werden, nicht schnell am Ende geändert. Das prägte die Layout-Struktur und die Informationsdichte jedes Diagramms auf kleinen Bildschirmen.',
           ],
           images: [
             {
               alt: 'Verschiedene mobile Bildschirmgrößen für dieselbe Visualisierung',
-              caption: 'Verschiedene mobile Bildschirmgrößen für dieselbe Visualisierung, um zu verstehen, was der Nutzer auf unterschiedlichen Geräten sieht',
+              caption: 'Mobile Layouts von Anfang an gestaltet, nicht nachträglich angepasst',
             },
             {
-              alt: 'Desktop-Ansicht des Visualisierungs-Layouts',
-              caption: 'Desktop-Ansicht des Visualisierungs-Layouts, um zu verstehen, was der Nutzer auf der WWF-Website sieht',
+              alt: 'Desktop-Ansicht des Visualisierungs-Layouts auf der WWF-Website',
+              caption: 'Desktop-Ansicht des Visualisierungs-Layouts auf der WWF-Website',
             },
           ],
         },
         {
-          title: 'Vereinfachen ohne Bedeutung zu verlieren',
+          title: 'Die wichtigste Entscheidung: Einfachere Diagramme, keine komplexen',
           body: [
-            'Frühe Skizzen enthielten zu viele Informationen, die innerhalb eines einzelnen Diagramms um Aufmerksamkeit konkurrierten. Einige Konzepte verwendeten Kreisdiagramme, die beim Vergleich von mehr als zwei Werten schlecht funktionieren. Position auf einer gemeinsamen Skala lässt sich generell am leichtesten vergleichen; Kreise und Winkel sind weniger präzise. Ich entschied mich daher für Säulen- und Liniendiagramme, die einfacher zu lesen sind.',
-            'Das Ziel war, alles zu entfernen, was den Leser mehr als nötig belastet. Visuelle Hinweise wie Icons, konsistente Markenfarben und eine klare typografische Hierarchie wurden nicht als Dekoration hinzugefügt, sondern als Navigation, damit die Nutzer sich innerhalb jeder Visualisierung schnell orientieren können.',
+            'Die frühen Skizzen enthielten zu viele Informationen, die um Aufmerksamkeit konkurrierten. Einige Konzepte verwendeten Kreisdiagramme, die beim Vergleich von mehr als zwei Werten schlecht funktionieren. Position auf einer gemeinsamen Skala lässt sich für das menschliche Auge am einfachsten vergleichen; Winkel und Kreisgrößen sind wesentlich schwieriger. Ich wechselte die Konzepte daher zu Säulen- und Liniendiagrammen, die Leserinnen und Leser mühelos entschlüsseln können.',
+            'Das Ziel war immer dasselbe: Alles entfernen, was den Leser mehr als nötig belastet. Icons, konsistente Markenfarben und eine klare typografische Hierarchie wurden nicht als Dekoration hinzugefügt, sondern als Navigation – Wege für Besucherinnen und Besucher, sich schnell innerhalb jedes Diagramms zu orientieren.',
           ],
           images: [
             {
-              alt: 'Visualisierungsskizzen',
-              caption: 'Erste Versuche, die Informationsmenge in jeder Visualisierung zu reduzieren',
+              alt: 'Frühe Skizzen vereinfacht zu Säulen- und Liniendiagrammen',
+              caption: 'Von zu komplexen Konzepten zu Säulen- und Liniendiagrammen, die Leserinnen und Leser mühelos entschlüsseln können',
             },
           ],
         },
         {
           title: 'Interaktivität als Erzählung',
           body: [
-            'Eine der wirkungsvolleren Designentscheidungen war der Einsatz eines Zeitschiebers, mit dem Nutzer historische Daten in eigenem Tempo durchblättern konnten. Anstatt einen statischen Schnappschuss zu zeigen, verwandelte er jedes Diagramm in eine kleine Erzählung: Man konnte beobachten, wie sich der deutsche Strommix Jahr für Jahr verschob, oder den Zusammenhang zwischen CO₂-Konzentration und Temperatur über Jahrzehnte verfolgen. Die Daten erzählten ihre eigene Geschichte, sobald das Interface aus dem Weg trat.',
+            'Das wirkungsvollste einzelne Feature war ein Zeitschieber, mit dem Nutzerinnen und Nutzer historische Daten in eigenem Tempo durchblättern können. Anstatt eines statischen Schnappschusses wurde jedes Diagramm zu einer kleinen Geschichte: Man kann beobachten, wie sich der deutsche Strommix Jahr für Jahr verschiebt, oder den Zusammenhang zwischen CO₂-Konzentration und Temperatur über Jahrzehnte verfolgen. Dank dieses einfachen Features erzählen die Daten ihre eigene Geschichte.',
           ],
           images: [
             {
-              alt: 'WWF-Visualisierungsmockups',
-              caption: 'Der Nutzer kann mit einem Zeitschieber durch die Daten navigieren, was jedes Diagramm in eine kleine zeitliche Erzählung verwandelt',
+              alt: 'Zeitschieber zum Navigieren durch historische Daten',
+              caption: 'Der Zeitschieber verwandelt jedes Diagramm in eine kleine Geschichte – die Daten erzählen sich selbst, sobald das Interface aus dem Weg tritt',
             },
           ],
         },
         {
           title: 'Ergebnisse',
           body: [
-            'Das fertige Dashboard umfasste 11 dynamische Visualisierungen zu Themen wie Verkehrsemissionen, dem Wachstum erneuerbarer Energiequellen und der täglichen Stromproduktion. Alle waren responsiv und für die iframe-Integration konzipiert, sodass sie auf der gesamten WWF-Deutschland-Website ohne Layoutprobleme auf jeder Bildschirmgröße eingebettet werden konnten.',
+            'Das fertige Dashboard umfasste 11 dynamische Visualisierungen zu Themen wie Verkehrsemissionen, dem Wachstum erneuerbarer Energiequellen und der täglichen Stromproduktion. Alle sind responsiv, sodass WWF sie an jeder Stelle der Website platzieren kann, ohne Layoutprobleme.',
+            { pre: 'Das Dashboard ist hier zu finden: ', linkText: 'WWF Energiewende Dashboard', href: 'https://www.wwf.de/themen-projekte/klimaschutz/wwf-energiewende-dashboard', post: '' },
           ],
           images: [
             {
-              alt: 'WWF-Visualisierungsmockups',
-              caption: 'Das fertige Dashboard umfasste 11 dynamische Visualisierungen zu Themen wie Verkehrsemissionen, dem Wachstum erneuerbarer Energiequellen und der täglichen Stromproduktion.',
+              alt: 'Fertiges Dashboard mit 11 dynamischen Visualisierungen',
+              caption: 'Der finale Satz von 11 responsiven Visualisierungen, einbettbar an jeder Stelle der WWF-Deutschland-Website',
             },
           ],
         },
         {
           title: 'Was ich mitgenommen habe',
           body: [
-            'Datenvisualisierungsdesign beginnt immer mit derselben Frage: Was soll der Leser verstehen? Alles andere, wie Diagrammtyp, Farbe oder Interaktion, folgt daraus. Einfache Diagramme sind oft wirkungsvoller als komplexe, gerade weil der Leser sich auf die Daten konzentrieren kann, anstatt das Format zu entschlüsseln. Die schwierigere Fähigkeit ist zu erkennen, wann ein eigens entwickeltes Diagramm echten Mehrwert bietet und wann es nur Rauschen erzeugt.',
+            'Datenvisualisierungsdesign beginnt immer mit derselben Frage: Was soll die Leserin oder der Leser verstehen? Diagrammtyp, Farbe und Interaktion folgen alle aus der Antwort. Einfache Diagramme gewinnen meistens, weil sich die Leserin oder der Leser auf die Daten konzentrieren kann, anstatt das Format zu entschlüsseln. Die schwierigere Fähigkeit ist zu erkennen, wann ein eigens entwickeltes Diagramm echten Mehrwert bringt und wann es nur Rauschen erzeugt.',
           ],
           images: [],
         },
@@ -356,85 +357,88 @@ export const en = {
         {
           title: 'Ein komplexes Thema und ein skeptisches Publikum',
           body: [
-            'Die Energiewende im ländlichen Ostdeutschland ist nicht nur eine technische Frage – sie ist eine politische. In manchen deutschen Regionen begegnen Bewohnerinnen und Bewohner erneuerbaren Energieprojekten mit echtem Misstrauen: gegenüber politischen Entscheidungen und dem Gefühl, dass Veränderungen um sie herum geschehen, nicht mit ihnen.',
+            'Die Energiewende im ländlichen Ostdeutschland ist nicht nur eine technische Frage – es ist eine politische. Erneuerbare-Energie-Projekte können bei manchen Bewohnerinnen und Bewohnern auf echtes Misstrauen stoßen: gegenüber politischen Entscheidungen und dem Gefühl, dass Veränderungen um sie herum passieren, nicht mit ihnen.',
             'ReEnAct war eine direkte Antwort auf diese Spannung. Das Ziel: Bürgerinnen, Bürgern und lokalen Stakeholdern eine aktive Rolle beim Erkunden der Energiezukunft ihrer Region zu geben. Meine Aufgabe war es, das Tool zu gestalten und zu bauen, das dies möglich machte.',
-            'Das Tool musste für alle funktionieren – für Bürgerinnen und Bürger ohne Energiehintergrund, für Menschen, die dem Projekt gegenüber skeptisch eingestellt sein könnten, und für Workshop-Facilitators, die auf einem iPad schnell zwischen Ansichten wechseln. Das zugrunde liegende System war von echter Komplexität: Wind, mehrere PV-Technologien, Biomasse, Wasserstoff, Speicher, Flächennutzung, Kosten, CO₂-Ziele für 2030 und 2040.',
-            'Manche Nutzer würden dem Tool oder den Menschen dahinter nicht vertrauen. Kein Interface kann diese Lücke vollständig schließen – deshalb waren Sozialforschende und Facilitators Teil des Projekts, die den Gemeinschaften näher waren. Die Aufgabe des Tools war enger gesteckt: echte Daten ehrlich präsentieren und Menschen erkunden lassen, ohne dass sie sich gedrängt fühlen.',
+            'Das Tool musste für Bürgerinnen und Bürger ohne Energiehintergrund funktionieren, für Menschen, die dem gesamten Projekt skeptisch gegenüberstanden, und für Workshop-Facilitators, die auf einem iPad schnell zwischen Ansichten wechseln. Und das zugrunde liegende System war von echter Komplexität: Wind, mehrere PV-Technologien, Biomasse, Wasserstoff, Speicher, Flächennutzung, Kosten, CO₂-Ziele für 2030 und 2040.',
+            'Eines war von Anfang an klar: Kein Interface kann allein Vertrauen schaffen. Deshalb waren Sozialforschende und Facilitators Teil des Projekts, die den Gemeinschaften näher waren. Die Aufgabe des Tools war enger gesteckt: echte Daten ehrlich präsentieren und Menschen erkunden lassen, ohne dass sie sich gedrängt fühlen.',
           ],
           images: [],
         },
         {
-          title: 'Designentscheidungen',
+          title: 'Jede Designentscheidung ist auch eine Vertrauensentscheidung',
           body: [
-            'Jede wesentliche Entscheidung kam aus einer einzigen Frage: Was braucht dieses Publikum, um zu verstehen und zu vertrauen, was es sieht?',
-            'Eine Lösung war die Einbindung einer Karte. Manche Bewohnerinnen und Bewohner befürchten, dass erneuerbare Anlagen die Landschaft dominieren würden. Den tatsächlichen Flächenbedarf sichtbar zu machen – überlagert mit Siedlungsflächen und Moorstandorten – zeigte die Realität auf eine Weise, die Zahlen allein nicht konnten.',
-            'Balkendiagramme wurden im gesamten Tool verwendet: Sie mögen unspektakulär wirken, sind aber vertraut, leicht lesbar und wahrnehmungsgenau. Progressive Disclosure strukturierte die Erfahrung. Die wichtigsten Informationen kamen zuerst, in der einfachsten Form. Detailliertere Diagramme waren für neugierige Nutzer verfügbar, aber standardmäßig ausgeblendet.',
-            'Kontext war in jede Interaktion eingebaut. Schieberegler zeigten Markierungen für aktuelle Werte und Ziele. Diagramme enthielten Ziellinien. Eine Änderung am Schieberegler aktualisierte die Ergebnisse sofort und machte den Zusammenhang zwischen Entscheidung und Konsequenz in Echtzeit sichtbar. Szenarien und Technologien konnten nebeneinander verglichen werden, da isolierte Zahlen schwer einzuordnen sind.',
-            'Kosten wurden als erstrangige Kennzahl behandelt. Für viele Bürgerinnen und Bürger ist Bezahlbarkeit wichtiger als Klimaneutralität. Kosten auszublenden hätte das Tool wie Lobbyarbeit wirken lassen.',
-            'Die Szenariovergleichsansicht war das schwierigste Problem. Ich entschied mich für Liniendiagramme mit Ziellinien, anklickbare Szenarionamen, die jeweils eines hervorhoben, und eine Begrenzung gleichzeitiger Vergleiche.',
-            'Die gezeigten Daten sind real und unvoreingenommen – aber das Tool ist nicht gänzlich ohne Standpunkt. Indem klimaneutrale Szenarien leicht zu erstellen sind und gezeigt wird, dass das Erreichen von CO₂-Zielen oft keine negativen Folgen für die Region hat, versucht das Design behutsam zu zeigen, dass ein gutes Ergebnis erreichbar ist. Das funktioniert aber nur, wenn Menschen dem Tool genug vertrauen, um sich darauf einzulassen. Für diejenigen, die das nicht tun, waren die Sozialforschenden und Facilitators im Raum der wichtigere Faktor.',
-            'Den initialen Prototyp baute ich selbst mit Next.js und Tailwind-UI-Komponenten, bevor das Projekt in seine finale Umsetzung überging.',
+            'Dieser Satz wurde zum Maßstab für jede wesentliche Entscheidung im Projekt.',
+            'Die Landschaft zeigen, nicht nur Zahlen. Manche Bewohnerinnen und Bewohner befürchten, dass erneuerbare Anlagen ihre Landschaft dominieren werden. Daher enthält das Tool eine Karte, die den tatsächlichen Flächenbedarf jedes Szenarios zeigt – überlagert mit Siedlungsflächen und Moorstandorten. Den realen Maßstab zu sehen beantwortet eine Angst, die Zahlen allein nicht erreichen können.',
+            'Langweilige Diagramme, mit Absicht. Balkendiagramme werden im gesamten Tool verwendet. Sie mögen schlicht wirken, sind aber vertraut, leicht lesbar und wahrnehmungsgenau. Für ein Publikum, das Manipulation vermuten könnte, baut ein Diagramm, das jeder auf einen Blick überprüfen kann, mehr Vertrauen auf als alles Clevere, aber Komplexe.',
+            'Kontext in jeder Interaktion. Schieberegler zeigen Markierungen für aktuelle Werte und offizielle Ziele. Diagramme enthalten Ziellinien. Das Bewegen eines Schiebereglers aktualisiert die Ergebnisse sofort, sodass der Zusammenhang zwischen einer Entscheidung und ihren Konsequenzen sichtbar bleibt. Szenarien und Technologien können nebeneinander verglichen werden, weil isolierte Zahlen schwer zu beurteilen sind.',
+            'Kosten als erstrangige Kennzahl. Für viele Bürgerinnen und Bürger ist Bezahlbarkeit wichtiger als Klimaneutralität. Kosten auszublenden hätte das Tool zu Lobbyarbeit gemacht – genau das, was ein skeptisches Publikum erwartet und ablehnt.',
+            'Progressive Disclosure. Die wichtigsten Informationen kommen zuerst, in der einfachsten Form. Detailliertere Diagramme sind für neugierigere Nutzerinnen und Nutzer vorhanden, bleiben aber standardmäßig ausgeblendet.',
+            'Das schwierigste einzelne Problem war die Szenariovergleichsansicht. Ich entschied mich für Liniendiagramme mit Ziellinien, anklickbare Szenarionamen, um jeweils eines hervorzuheben, und eine Begrenzung der gleichzeitig vergleichbaren Szenarien. Eine Idee wurde bewusst verworfen: eine Medaille neben dem am besten abschneidenden Szenario zu zeigen. Es wäre hilfreich gewesen, hätte sich aber nach Lobbyarbeit angefühlt. Es blieb draußen.',
+            'Um ehrlich über die Position des Tools zu sein: Die Daten sind real und unvoreingenommen, aber das Design ist nicht völlig neutral. Indem klimaneutrale Szenarien leicht zu erstellen sind und gezeigt wird, dass das Erreichen von CO₂-Zielen oft keine negativen Folgen für die Region hat, demonstriert das Tool still, dass ein gutes Ergebnis möglich ist. Das funktioniert nur, wenn Menschen ihm genug vertrauen, um sich darauf einzulassen. Für diejenigen, die das nicht tun, waren die Forschenden und Facilitators im Raum der wichtigere Faktor.',
+            'Den initialen Prototyp baute ich selbst in Next.js mit Tailwind-UI-Komponenten, bevor das Projekt in seine finale Umsetzung überging.',
           ],
           images: [
             {
-              alt: 'Kartenansicht des ReEnAct-Szenarioplanungstools',
-              caption: 'Die Kartenansicht wurde entwickelt, um die räumlichen Auswirkungen verschiedener Energieszenarien für unterschiedliche Nutzertypen lesbar zu machen – einschließlich jener, die dem Projekt skeptisch gegenüberstehen könnten. Balkendiagramme wurden im gesamten Tool eingesetzt, da sie vertraut, leicht lesbar und wahrnehmungsgenau sind.',
+              alt: 'Kartenansicht mit dem räumlichen Fußabdruck von Energieszenarien',
+              caption: 'Die Karte zeigt den tatsächlichen Flächenbedarf jedes Szenarios überlagert mit Siedlungsflächen und Moorstandorten – eine räumliche Angst, die Zahlen allein nicht erreichen können',
             },
             {
-              alt: 'Szenariovergleichsansicht des ReEnAct-Szenarioplanungstools',
-              caption: 'Balkendiagramme wurden im gesamten Tool verwendet, da sie vertraut, leicht lesbar und wahrnehmungsgenau sind.',
+              alt: 'Balkendiagramme für den Szenariovergleich',
+              caption: 'Balkendiagramme im gesamten Tool – vertraut und wahrnehmungsgenau, auf einen Blick überprüfbar',
             },
             {
-              alt: 'Szenarioerstellungsansicht des ReEnAct-Szenarioplanungstools',
-              caption: 'Die Szenarioerstellungsansicht wurde so gestaltet, dass Nutzer verschiedene Energieszenarien einfach definieren und vergleichen können.',
+              alt: 'Szenarioerstellung mit Schiebereglern und Zielmarkierungen',
+              caption: 'Schieberegler mit aktuellen Werten und Zielmarkierungen, Diagramme mit Ziellinien – der Zusammenhang zwischen Entscheidung und Konsequenz bleibt sichtbar',
             },
             {
-              alt: 'Szenariovergleichsansicht des ReEnAct-Szenarioplanungstools',
-              caption: 'Kosten als Teil der Szenariovergleichsansicht.',
+              alt: 'Szenariovergleich mit Kostenangaben',
+              caption: 'Kosten als erstrangige Kennzahl neben Energie und Emissionen',
             },
             {
-              alt: 'Szenariovergleichsansicht des ReEnAct-Szenarioplanungstools',
-              caption: 'Der Nutzer kann ein bestimmtes Szenario durch Klick auf seinen Namen hervorheben, was den Vergleich einzelner Szenarien erleichtert.',
+              alt: 'Szenariovergleich mit Liniendiagrammen und Ziellinien',
+              caption: 'Liniendiagramme mit Ziellinien und anklickbaren Szenarionamen zum einzelnen Hervorheben',
             },
             {
-              alt: 'Szenariovergleichsansicht des ReEnAct-Szenarioplanungstools',
-              caption: 'Eine Begrenzung gleichzeitiger Vergleiche war notwendig, um eine Überforderung der Ansicht zu vermeiden. Eine Option war auch, das beste Szenario je Kennzahl mit einer Medaille zu kennzeichnen – das wirkte jedoch zu sehr wie Lobbyarbeit und wurde letztlich weggelassen.',
+              alt: 'Szenariovergleich mit Begrenzung gleichzeitiger Vergleiche',
+              caption: 'Eine Begrenzung gleichzeitiger Vergleiche hält die Ansicht lesbar',
             },
           ],
         },
         {
           title: 'Als sich das Briefing änderte',
           body: [
-            'Gegen Ende des Projekts überarbeiteten die Partner das Workshop-Format. Alles musste auf einmal sichtbar sein, da Facilitators es sich nicht leisten konnten, während laufender Sessions zwischen Seiten zu navigieren. Das bedeutete den Wechsel von einem schrittweisen Flow zu einem tab-basierten Layout, bei dem Dashboard, Szenario-Builder und Vergleichsansicht erreichbar waren, ohne den Bildschirm zu verlassen. Ein echter Kompromiss: Der ursprüngliche Flow war besser für selbstständiges Erkunden, das neue Layout besser für den Workshop-Einsatz.',
+            'Gegen Ende des Projekts überarbeiteten die Partner das Workshop-Format. Facilitators benötigten alles auf einmal sichtbar, weil es während einer Live-Session keine Zeit gibt, zwischen Seiten zu navigieren. Also wurde der schrittweise Flow zu einem tab-basierten Layout: Dashboard, Szenario-Builder und Vergleichsansicht, alle erreichbar, ohne den Bildschirm zu verlassen.',
+            'Es war ein echter Kompromiss. Der ursprüngliche Flow war besser für selbstständiges Erkunden; das neue Layout war besser für den Workshop-Raum. Der Workshop-Raum gewann, weil das der Ort war, wo das Tool tatsächlich eingesetzt werden würde – von echten Menschen, unter Zeitdruck.',
+            { pre: 'Das Tool ist hier zu sehen: ', linkText: 'reenact.apps2.rl-institut.de', href: 'https://reenact.apps2.rl-institut.de/', post: '' },
           ],
           images: [
             {
-              alt: 'Zweite Version des ReEnAct-Szenarioplanungstools mit tab-basiertem Layout',
-              caption: 'Die zweite Version des Tools mit tab-basiertem Layout, um einer Änderung im Workshop-Format Rechnung zu tragen. Dashboard, Szenario-Builder und Vergleichsansicht sind erreichbar, ohne den Bildschirm zu verlassen.',
+              alt: 'Zweite Version des Tools mit tab-basiertem Layout',
+              caption: 'Das tab-basierte Layout: Dashboard, Szenario-Builder und Vergleichsansicht erreichbar, ohne den Bildschirm zu verlassen',
             },
             {
-              alt: 'Zweite Version des ReEnAct-Szenarioplanungstools mit tab-basiertem Layout',
-              caption: 'Hier ist ein kompakterer Szenariovergleich möglich.',
+              alt: 'Szenario-Builder in der zweiten Version',
+              caption: 'Szenario-Builder im überarbeiteten Layout',
             },
             {
-              alt: 'Zweite Version des ReEnAct-Szenarioplanungstools mit tab-basiertem Layout',
-              caption: 'Da Schieberegler und Diagramme gleichzeitig sichtbar sind, können Nutzer die Auswirkungen ihrer Änderungen in Echtzeit sehen – was den Zusammenhang zwischen Entscheidung und Konsequenz unmittelbarer macht.',
+              alt: 'Vergleichsansicht in der zweiten Version',
+              caption: 'Mit sichtbaren Schiebereglern und Diagrammen gleichzeitig bleibt der Zusammenhang zwischen Entscheidung und Konsequenz unmittelbar',
             },
           ],
         },
         {
           title: 'Wie es ankam',
           body: [
-            'Das Tool wurde in einer Planungszelle – einem strukturierten Bürgerbeteiligungsverfahren – in der Peenetal-Region eingesetzt, was sehr erfolgreich war.',
-            'Ich hatte während des Projekts keinen direkten Kontakt zu Bürgerinnen und Bürgern. Designentscheidungen basierten auf Domänenwissen, Designurteil und enger Zusammenarbeit mit dem Projektteam, und nicht auf eigener Nutzerforschung. Das ist eine echte Einschränkung und eine häufige in öffentlich geförderten Forschungsprojekten.',
+            'Das Tool wurde erfolgreich in einer Planungszelle – einem strukturierten Bürgerbeteiligungsverfahren – in der Peenetal-Region eingesetzt.',
+            'Eine Anmerkung zur Methode: Ich hatte während des Projekts keinen direkten Kontakt zu Bürgerinnen und Bürgern. Designentscheidungen stützten sich auf Domänenwissen, Designurteil und enge Zusammenarbeit mit dem Projektteam. Das ist eine häufige Einschränkung in öffentlich geförderten Forschungsprojekten und ein Grund, warum die Sozialforschenden im Raum wichtig waren.',
           ],
           images: [],
         },
         {
           title: 'Was ich mitgenommen habe',
           body: [
-            'Für ein skeptisches Publikum zu gestalten bedeutet, dass jede Wahl auch eine Vertrauensentscheidung ist: was zuerst gezeigt wird, wie ein Diagramm beschriftet ist, ob Kosten einbezogen werden.',
-            'Der späte Schwenk zum Ein-Bildschirm-Layout war eine nützliche Erinnerung daran, dass ein Tool von einem echten Menschen, in einem echten Raum, unter Zeitdruck benutzt wird. Dieser Kontext muss von Anfang an Teil des Designs sein.',
+            'Für ein skeptisches öffentliches Publikum zu gestalten bedeutet, dass jede Wahl auch eine Vertrauensentscheidung ist: was zuerst gezeigt wird, wie ein Diagramm beschriftet ist, ob Kosten einbezogen werden.',
+            'Und ein Tool wird von einem echten Menschen, in einem echten Raum, unter Zeitdruck benutzt. Der späte Schwenk zum Ein-Bildschirm-Layout war eine Erinnerung daran, dass dieser Kontext von Anfang an Teil des Designs sein muss – und nicht am Ende entdeckt werden darf.',
           ],
           images: [],
         },

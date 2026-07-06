@@ -78,6 +78,13 @@ export default function WWFPage() {
           width={1440}
           height={844}
         />
+        <p>
+          {s[4].body[1].pre}
+          <a href={s[4].body[1].href} target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-800 transition-colors">
+            {s[4].body[1].linkText}
+          </a>
+          {s[4].body[1].post}
+        </p>
       </ProjectSection>
       <ProjectDivider />
       <ProjectSection title={s[5].title}>

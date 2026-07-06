@@ -65,6 +65,7 @@ export default function ReEnActPage() {
           height={1147}
         />
         <p>{s[1].body[5]}</p>
+        <p>{s[1].body[6]}</p>
         <ProjectImage
           src="/images/projects/reenact/reenact-compare-3.png"
           alt={s[1].images[4].alt}
@@ -79,8 +80,8 @@ export default function ReEnActPage() {
           width={1367}
           height={1625}
         />
-        <p>{s[1].body[6]}</p>
         <p>{s[1].body[7]}</p>
+        <p>{s[1].body[8]}</p>
       </ProjectSection>
       <ProjectDivider />
       <ProjectSection title={s[2].title}>
@@ -106,6 +107,14 @@ export default function ReEnActPage() {
           width={1280}
           height={832}
         />
+        <p>{s[2].body[1]}</p>
+        <p>
+          {s[2].body[2].pre}
+          <a href={s[2].body[2].href} target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-800 transition-colors">
+            {s[2].body[2].linkText}
+          </a>
+          {s[2].body[2].post}
+        </p>
       </ProjectSection>
       <ProjectDivider />
       <ProjectSection title={s[3].title}>

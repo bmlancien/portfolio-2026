@@ -271,70 +271,71 @@ export const en = {
       },
       sections: [
         {
-          title: "Let's bring energy data to life",
+          title: 'Bringing energy data to a general audience',
           body: [
-            'WWF Germany needed a way to display energy data to everyday visitors to their website. The challenge was making that data feel meaningful and legible to someone with no background in energy systems. The brief called for a set of dynamic, interactive visualizations that could be included as an iframe while keeping WWF\'s visual identity.',
+            "WWF Germany wanted to show energy data to the everyday visitors of their website — people with no background in energy systems. The challenge was making that data feel meaningful to them, not just correct. The brief asked for a set of dynamic, interactive visualizations that could be embedded as an iframe while keeping WWF's visual identity.",
           ],
           images: [],
         },
         {
-          title: 'The starting point',
+          title: 'The starting point: sketches, and one question',
           body: [
-            'The project began with rough sketches from the partner team: a set of chart concepts that captured what they wanted to communicate. My first task was to turn those sketches into workable mockups and, in doing so, ask the more fundamental question: what is each visualization actually trying to say? That question drove every design decision that followed.',
-            'Responsiveness was part of the conversation from the start. Because the visualizations would be embedded across different pages and screen sizes, I had to think about mobile layouts early — before the designs were locked in — rather than retrofitting them at the end. This shaped how I approached the grid structure and how much information each chart could carry at smaller sizes.',
+            'The project began with rough sketches from the partner team, including chart concepts that captured what they wanted to communicate. My first task was to turn those sketches into workable mockups. But before that, I had to ask a more basic question for every chart: what is this visualization actually trying to say? That question drove every design decision that followed.',
+            'Responsiveness was part of the thinking from day one. The visualizations would be embedded on different pages and screen sizes, so mobile layouts had to be designed early, not changed quickly at the end. This shaped the grid layout and how much information each chart could carry on a small screen.',
           ],
           images: [
             {
-              alt: 'Different mobile sizes for the same visualization',
-              caption: 'Different mobile sizes for the same visualization in order to understand what the user would see on different screen sizes',
+              alt: 'Different mobile screen sizes for the same visualization',
+              caption: 'Mobile layouts designed from the start, not retrofitted at the end',
             },
             {
-              alt: 'Desktop view of the visualization layout',
-              caption: 'Desktop view of the visualization layout in order to understand what the user would see on the WWF website',
+              alt: 'Desktop view of the visualization layout on the WWF website',
+              caption: 'Desktop view of the visualization layout on the WWF website',
             },
           ],
         },
         {
-          title: 'Simplifying without losing meaning',
+          title: 'The most important decision: simpler charts, not complex ones',
           body: [
-            'Early sketches had too much information competing for attention within a single chart. Several concepts used pie charts that work poorly when comparing more than two values. Position on a common scale is generally the easiest to compare, whereas circles and angles are less precise. I therefore went for column and line charts, which are easier to decode.',
-            'The goal was to remove anything that made the reader work harder than necessary. Visual cues like icons, consistent brand colors, and clear typographic hierarchy were added not as decoration but as navigation so that users could orient themselves quickly within each visualization.',
+            "The early sketches had too much information competing for attention. Several concepts used pie charts, which work poorly when comparing more than two values. Position on a common scale is the easiest thing for a human eye to compare; angles and circle sizes are much harder. So I moved the concepts to column and line charts, which readers can decode without effort.",
+            'The goal was always the same: remove anything that makes the reader work harder than necessary. Icons, consistent brand colors and a clear typographic hierarchy were added not as decoration, but as navigation — ways for a visitor to orient themselves quickly inside each chart.',
           ],
           images: [
             {
-              alt: 'Visualization sketches',
-              caption: 'First attempts to reduce the amount of information in each visualization',
+              alt: 'Early sketches simplified into column and line charts',
+              caption: 'Moving from overly complex concepts to column and line charts that readers can decode without effort',
             },
           ],
         },
         {
           title: 'Interactivity as storytelling',
           body: [
-            'One of the more effective design decisions was the use of a time slider, letting users scrub through historical data at their own pace. Rather than presenting a static snapshot, it turned each chart into a small narrative: you could watch Germany\'s electricity mix shift year by year, or trace the relationship between CO₂ concentration and temperature across decades. The data told its own story once the interface got out of the way.',
+            "The most effective single feature was a time slider that lets users scrub through historical data at their own pace. Instead of a static snapshot, each chart became a small story: you can watch Germany's electricity mix shift year by year, or follow the relationship between CO₂ concentration and temperature across decades. Thanks to this simple feature, the data tells its own story.",
           ],
           images: [
             {
-              alt: 'WWF visualization mockups',
-              caption: 'The user can scrub through the data with a time slider, which turns each chart into a small narrative over time',
+              alt: 'Time slider allowing users to scrub through historical data',
+              caption: 'The time slider turns each chart into a small story — the data tells itself once the interface gets out of the way',
             },
           ],
         },
         {
           title: 'Results',
           body: [
-            'The final dashboard comprised 11 dynamic visualizations, covering topics from transport emissions to the growth of renewable energy sources to daily electricity production. Each was responsive and designed for iframe integration, so it could be embedded flexibly across the WWF Germany site without layout friction on any screen size.',
+            'The final dashboard comprised 11 dynamic visualizations, covering topics from transport emissions to the growth of renewables to daily electricity production. Each one is responsive, so WWF can place them anywhere on the site without layout problems.',
+            { pre: 'You can find the dashboard here: ', linkText: 'WWF Energiewende Dashboard', href: 'https://www.wwf.de/themen-projekte/klimaschutz/wwf-energiewende-dashboard', post: '' },
           ],
           images: [
             {
-              alt: 'WWF visualization mockups',
-              caption: 'The final dashboard comprised 11 dynamic visualizations, covering topics from transport emissions to the growth of renewable energy sources to daily electricity production.',
+              alt: 'Final dashboard with 11 dynamic visualizations',
+              caption: 'The final set of 11 responsive visualizations, embeddable anywhere on the WWF Germany site',
             },
           ],
         },
         {
           title: 'What I took from it',
           body: [
-            'Data visualization design always starts with the same question: what do we want the reader to understand? Everything else, like chart type, color or interaction, follows from that. Simple charts are often more effective than complex ones precisely because the reader can focus on the data instead of decoding the format. The harder skill is knowing when a custom chart adds real value and when it just adds noise.',
+            'Data visualization design always starts with the same question: what should the reader understand? Chart type, color and interaction all follow from the answer. Simple charts usually win, because the reader can focus on the data instead of decoding the format. The harder skill is knowing when a custom chart adds real value and when it only adds noise.',
           ],
           images: [],
         },
@@ -356,77 +357,80 @@ export const en = {
         {
           title: 'A complex topic and a skeptical audience',
           body: [
-            "The energy transition in rural eastern Germany isn't just a technical question. It's a political one. In some german regions, renewable energy projects might meet real skepticism from residents who distrust political decisions and feel changes are happening around them rather than with them.",
-            'ReEnAct was a direct response to that tension. The goal: give citizens and local stakeholders an active role in exploring their region\'s energy future. My role was to design and build the tool that made this possible.',
-            'The tool had to work for anyone, such as citizens with no energy background, people potentially skeptical of the project, workshop facilitators switching views quickly on an iPad. The underlying system was genuinely complex: wind, multiple PV technologies, biomass, hydrogen, storage, land use, costs, CO₂ targets for 2030 and 2040.',
-            "Some users wouldn't trust the tool or the people behind it. No interface can fully close that gap, which is why the project included social researchers and facilitators who were closer to the communities. The tool's job was narrower: present real data honestly, and let people explore without feeling pushed.",
+            'The energy transition in rural eastern Germany is not just a technical question. It is a political one. Renewable energy projects can meet real skepticism from some residents who distrust political decisions and feel that changes happen around them, not with them.',
+            "ReEnAct was a direct answer to that tension. The goal: give citizens and local stakeholders an active role in exploring their region's energy future. My role was to design and build the tool that made this possible.",
+            'The tool had to work for citizens with no energy background, for people skeptical of the whole project, and for workshop facilitators switching views quickly on an iPad. And the system underneath was genuinely complex: wind, several PV technologies, biomass, hydrogen, storage, land use, costs, CO₂ targets for 2030 and 2040.',
+            "One thing was clear from the start: no interface can create trust on its own. That is why the project included social researchers and facilitators who were close to the communities. The tool's job was narrower: present real data honestly, and let people explore without feeling pushed.",
           ],
           images: [],
         },
         {
-          title: 'Design decisions',
+          title: 'Every design choice is also a trust decision',
           body: [
-            "Every significant decision came from one question: what does this audience need to understand and trust what they're seeing?",
-            'One solution was including a map. Some residents might fear renewable installations would dominate the landscape. Showing the actual footprint layered against settlement areas and moorland sites made the reality visible in a way numbers alone couldn\'t.',
-            'Bar charts were used throughout the tool, because even if they can look boring, they are familiar, easy to read and perceptually accurate. Progressive disclosure structured the experience. The most important information came first, in the simplest form. More detailed charts were available for curious users, but hidden by default.',
-            'Context was built into every interaction. Sliders showed markers for current values and targets. Charts included goal lines. Changing a slider updated the results immediately, making the link between decision and consequence visible in real time. Scenarios and technologies could be compared side by side, because isolated numbers are hard to evaluate.',
-            'Costs were treated as a first-class metric. For many citizens, affordability matters more than carbon neutrality. Ignoring costs would have made the tool feel like advocacy.',
-            'The scenario comparison view was the hardest problem. I landed on line charts with goal lines, clickable scenario names that highlighted one at a time, and a cap on simultaneous comparisons.',
-            "The data shown is real and unbiased but the tool isn't entirely without a point of view. By making climate-neutral scenarios easy to build, and showing that reaching CO₂ targets often has no negative side effects for the region, the design tries to gently demonstrate that a good outcome is achievable. But that only works if people trust the tool enough to engage with it. For those who don't, the social researchers and facilitators in the room were the more important factor.",
-            'I built the initial prototype myself using Next.js and Tailwind UI components before the project moved to its final implementation.',
+            'That sentence became the test for every significant decision in the project.',
+            "Show the landscape, not just the numbers. Some residents fear that renewable installations will dominate their landscape. So the tool includes a map that shows the actual footprint of each scenario, layered against settlement areas and moorland sites. Seeing the real proportions answers a fear that numbers alone cannot reach.",
+            'Boring charts, on purpose. Bar charts are used throughout the tool. They can look plain, but they are familiar, easy to read, and perceptually accurate. For an audience that might suspect manipulation, a chart everyone can verify at a glance builds more trust than anything clever but complex.',
+            'Context in every interaction. Sliders show markers for current values and official targets. Charts include goal lines. Moving a slider updates the results immediately, so the link between a decision and its consequence stays visible. Scenarios and technologies can be compared side by side, because isolated numbers are hard to judge.',
+            'Costs as a first-class metric. For many citizens, affordability matters more than carbon neutrality. Leaving costs out would have turned the tool into advocacy. Exactly what a skeptical audience expects and rejects.',
+            'Progressive disclosure. The most important information comes first, in the simplest form. Detailed charts exist for more curious users, but stay hidden by default.',
+            'The hardest single problem was the scenario comparison view. I landed on line charts with goal lines, clickable scenario names to highlight one at a time, and a cap on how many scenarios can be compared at once. One idea was rejected on purpose: showing a medal next to the best-performing scenario. It would have been helpful but it would have felt like advocacy. It stayed out.',
+            "To be honest about the tool's position: the data is real and unbiased, but the design is not entirely neutral. By making climate-neutral scenarios easy to build, and by showing that reaching CO₂ targets often has no negative side effects for the region, the tool quietly demonstrates that a good outcome is possible. That only works if people trust it enough to engage. For those who don't, the researchers and facilitators in the room were the more important factor.",
+            'I built the initial prototype myself in Next.js with Tailwind UI components before the project moved to its final implementation.',
           ],
           images: [
             {
-              alt: 'Map view of the ReEnAct scenario planning tool',
-              caption: 'The map view was designed to make the spatial implications of different energy scenarios legible to different types of users, including those who might be skeptical of the project. I used bar charts were used throughout the tool, because they are familiar, easy to read and perceptually accurate.',
+              alt: 'Map view showing the spatial footprint of energy scenarios',
+              caption: 'The map shows the actual footprint of each scenario layered against settlement areas and moorland sites — answering a spatial fear that numbers alone cannot reach',
             },
             {
-              alt: 'Scenario comparison view of the ReEnAct scenario planning tool',
-              caption: 'Bar charts were used throughout the tool, because they are familiar, easy to read and perceptually accurate.',
+              alt: 'Bar charts used throughout the tool for scenario comparison',
+              caption: 'Bar charts throughout the tool — familiar and perceptually accurate, designed to be verifiable at a glance',
             },
             {
-              alt: 'Scenario creation view of the ReEnAct scenario planning tool',
-              caption: 'The scenario creation view was designed to allow users to easily define and compare different energy scenarios.',
+              alt: 'Scenario creation view with sliders and goal markers',
+              caption: 'Sliders with current values and target markers, charts with goal lines — the link between a decision and its consequence stays visible',
             },
             {
-              alt: 'Scenario comparison view of the ReEnAct scenario planning tool',
-              caption: 'Costs as part of the scenario comparison view.',
+              alt: 'Scenario comparison view including costs',
+              caption: 'Costs treated as a first-class metric alongside energy and emissions',
             },
             {
-              alt: 'Scenario comparison view of the ReEnAct scenario planning tool',
-              caption: 'The user can highlight a specific scenario by clicking on its name, which makes it easier to compare scenarios one at a time.',
+              alt: 'Scenario comparison with line charts and goal lines',
+              caption: 'Line charts with goal lines and clickable scenario names to highlight one at a time',
             },
             {
-              alt: 'Scenario comparison view of the ReEnAct scenario planning tool',
-              caption: 'A cap on simultaneous comparisons was necessary to prevent the view from becoming overwhelming. An option was also displaying a medal next to the best-performing scenario for each metric, but that felt too much like advocacy and was ultimately left out.',
+              alt: 'Scenario comparison view with a cap on simultaneous comparisons',
+              caption: 'A cap on simultaneous comparisons keeps the view readable',
             },
           ],
         },
         {
           title: 'When the brief changed',
           body: [
-            "Late in the project, partners revised the workshop format. Everything needed to be visible at once because facilitators couldn't afford the friction of navigating between pages during live sessions. This meant moving from a step-by-step flow to a tab-based layout, with the dashboard, scenario builder, and comparison view all accessible without leaving the screen. A real trade-off: the original flow was better for independent discovery, the new layout was better for workshop use.",
+            "Late in the project, the partners revised the workshop format. Facilitators needed everything visible at once, because during a live session, there is no time to navigate between pages. So the step-by-step flow became a tab-based layout: dashboard, scenario builder and comparison view, all reachable without leaving the screen.",
+            'It was a real trade-off. The original flow was better for independent discovery; the new layout was better for the workshop room. The workshop room won, because that is where the tool would actually be used — by real people, under time pressure.',
+            { pre: 'The tool can be seen here: ', linkText: 'reenact.apps2.rl-institut.de', href: 'https://reenact.apps2.rl-institut.de/', post: '' },
           ],
           images: [
             {
-              alt: 'Second version of the ReEnAct scenario planning tool, with a tab-based layout',
-              caption: 'The second version of the tool, with a tab-based layout to accommodate a change in the workshop format. The dashboard, scenario builder, and comparison view are all accessible without leaving the screen.',
+              alt: 'Second version of the tool with tab-based layout',
+              caption: 'The tab-based layout: dashboard, scenario builder and comparison view all reachable without leaving the screen',
             },
             {
-              alt: 'Second version of the ReEnAct scenario planning tool, with a tab-based layout',
-              caption: 'Here it is possible to compare scenarios in a more compact way.',
+              alt: 'Scenario builder in the second version',
+              caption: 'Scenario builder in the revised layout',
             },
             {
-              alt: 'Second version of the ReEnAct scenario planning tool, with a tab-based layout',
-              caption: 'With the sliders and charts visible at the same time, users can see the impact of their changes in real time, which makes the connection between decision and consequence more immediate.',
+              alt: 'Comparison view in the second version',
+              caption: 'With sliders and charts visible at the same time, the link between decision and consequence stays immediate',
             },
           ],
         },
         {
           title: 'How it landed',
           body: [
-            'The tool was used in a "Planungszelle" — a structured citizen deliberation process — in the Peenetal region, which was very successful.',
-            "I didn't have direct contact with citizens during the project. Design decisions were based on domain knowledge, design judgment, and close collaboration with the project team, not on firsthand user research. That's a real limitation, and a common one in publicly funded research projects.",
+            'The tool was successfully used in a "Planungszelle" — a structured citizen deliberation process — in the Peenetal region.',
+            'A note on method: I had no direct contact with citizens during the project. Design decisions drew on domain knowledge, design judgment and close collaboration with the project team. This is a common constraint in publicly funded research projects, and one reason the social researchers in the room mattered.',
           ],
           images: [],
         },
@@ -434,7 +438,7 @@ export const en = {
           title: 'What I took away',
           body: [
             'Designing for a skeptical public audience means every choice is also a trust decision: what to show first, how to label a chart, whether to include costs.',
-            'The late pivot to the one-screen layout was a useful reminder that a tool gets used by a real person, in a real room, under time pressure. That context has to be part of the design from the start.',
+            'And a tool is used by a real person, in a real room, under time pressure. The late pivot to the one-screen layout was a reminder that this context has to be part of the design from the start and not discovered at the end.',
           ],
           images: [],
         },
