@@ -290,7 +290,7 @@ export const en = {
             },
             {
               alt: 'Desktop view of the visualization layout on the WWF website',
-              caption: 'Desktop view of the visualization layout on the WWF website',
+              caption: 'The desktop layout had to carry the most information while still feeling accessible to a general reader',
             },
           ],
         },
@@ -418,7 +418,7 @@ export const en = {
             },
             {
               alt: 'Scenario builder in the second version',
-              caption: 'Scenario builder in the revised layout',
+              caption: 'The scenario builder in the one-screen layout — all controls visible without navigating away',
             },
             {
               alt: 'Comparison view in the second version',
@@ -477,7 +477,7 @@ export const en = {
           images: [
             {
               alt: 'From a modal to a persistent side panel',
-              caption: 'The charging point view moved from a modal window to a persistent side panel, keeping the map always visible alongside the location details.',
+              caption: 'The charging point view moved from a modal window to a persistent side panel, keeping the map visible alongside the location details',
             },
           ],
         },
@@ -490,7 +490,7 @@ export const en = {
           images: [
             {
               alt: 'The viability assessment redesigned as categorized boxes',
-              caption: 'Grouping indicators into categorized boxes made the section scannable. The table stayed for the key values; the long flat list became structured groups.',
+              caption: 'From a flat list to categorized boxes — the same information, structured so it can be scanned rather than read',
             },
           ],
         },
@@ -503,15 +503,15 @@ export const en = {
           images: [
             {
               alt: 'Different map layers in the Digitalatlas',
-              caption: 'Different map layers for EV charging infrastructure planning.',
+              caption: 'Over 40 layers, each needing to be instantly readable and visually consistent with the rest',
             },
             {
               alt: 'Overview of the Digitalatlas',
-              caption: 'The Digitalatlas brings together more than 40 data layers, divided into categories.',
+              caption: 'The Digitalatlas layer panel — categories keep 40+ layers navigable without visual overload',
             },
             {
               alt: 'Hydrogen-specific icons for the H2 Marketplace',
-              caption: 'Icon sets for both domains. The icons are not decoration — they are how users read and navigate the map.',
+              caption: 'Icon sets for the EV charging and hydrogen domains — visually distinct from each other, part of the same system',
             },
           ],
         },

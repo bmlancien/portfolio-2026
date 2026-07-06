@@ -290,7 +290,7 @@ export const en = {
             },
             {
               alt: 'Desktop-Ansicht des Visualisierungs-Layouts auf der WWF-Website',
-              caption: 'Desktop-Ansicht des Visualisierungs-Layouts auf der WWF-Website',
+              caption: 'Das Desktop-Layout musste die meisten Informationen tragen und dennoch für ein breites Publikum zugänglich bleiben',
             },
           ],
         },
@@ -418,7 +418,7 @@ export const en = {
             },
             {
               alt: 'Szenario-Builder in der zweiten Version',
-              caption: 'Szenario-Builder im überarbeiteten Layout',
+              caption: 'Der Szenario-Builder im Ein-Bildschirm-Layout — alle Steuerelemente sichtbar, ohne die Seite zu verlassen',
             },
             {
               alt: 'Vergleichsansicht in der zweiten Version',
@@ -477,7 +477,7 @@ export const en = {
           images: [
             {
               alt: 'Vom Modal zum persistenten Seitenpanel',
-              caption: 'Die Ladepunktansicht wechselte vom Modal zum persistenten Seitenpanel – die Karte bleibt stets neben den Standortdetails sichtbar.',
+              caption: 'Die Ladepunktansicht wechselte vom Modal zum persistenten Seitenpanel – die Karte bleibt neben den Standortdetails sichtbar',
             },
           ],
         },
@@ -490,7 +490,7 @@ export const en = {
           images: [
             {
               alt: 'Die Eignungsbewertung als kategorisierte Boxen',
-              caption: 'Die Gruppierung von Indikatoren in kategorisierte Boxen macht den Bereich überfliegbar. Die Tabelle blieb für die Schlüsselwerte; die lange flache Liste wurde zu strukturierten Gruppen.',
+              caption: 'Von einer flachen Liste zu kategorisierten Boxen – dieselben Informationen, strukturiert zum Überfliegen statt zum Lesen',
             },
           ],
         },
@@ -503,15 +503,15 @@ export const en = {
           images: [
             {
               alt: 'Verschiedene Kartenebenen im Digitalatlas',
-              caption: 'Verschiedene Kartenebenen für die Ladeinfrastrukturplanung.',
+              caption: 'Über 40 Ebenen – jede muss auf Anhieb lesbar und visuell konsistent mit den anderen sein',
             },
             {
               alt: 'Übersicht des Digitalatlas',
-              caption: 'Der Digitalatlas bündelt mehr als 40 Datenschichten, aufgeteilt in Kategorien.',
+              caption: 'Das Ebenen-Panel des Digitalatlas – Kategorien halten 40+ Schichten navigierbar, ohne visuell zu überfordern',
             },
             {
               alt: 'Wasserstoffspezifische Icons für den H2-Marktplatz',
-              caption: 'Icon-Sets für beide Domänen. Die Icons sind keine Dekoration – sie sind das, womit Nutzerinnen und Nutzer die Karte navigieren und lesen.',
+              caption: 'Icon-Sets für die EV-Lade- und Wasserstoff-Domäne – visuell eigenständig, aber Teil desselben Systems',
             },
           ],
         },
