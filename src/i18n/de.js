@@ -18,9 +18,9 @@ export const en = {
 
   // ─── Homepage — Hero ───────────────────────────────────────────────────────
   hero: {
-    heading: 'Datenintensive Interfaces für die Klimatechnologie',
+    heading: 'Datenintensive Interfaces für die Energiewende',
     subheading:
-      '7+ Jahre Erfahrung in der Gestaltung und Entwicklung von Dashboards, Szenario-Tools und kartenbasierten Interfaces für den Bereich erneuerbare Energien. Ich helfe interdisziplinären Teams dabei, komplexe Energiedaten durch klares, zugängliches Design verständlich zu machen.',
+      'Acht Jahre Gestaltung und Entwicklung von Planungstools, Dashboards und kartenbasierten Interfaces für den Energiesektor – für Forschungsinstitute, Energieunternehmen und öffentliche Projekte. Ich übersetze komplexe Modelle und Infrastrukturdaten in Tools, die Planer, Betreiber und Bürgerinnen und Bürger tatsächlich nutzen können.',
   },
 
   // ─── Homepage — Projects section ───────────────────────────────────────────
@@ -56,18 +56,24 @@ export const en = {
   about: {
     heading: 'Über mich',
     paragraphs: [
-      'Ich bin UX/UI-Designer mit Spezialisierung auf die Energiewende – auf die Tools, Web-Interfaces und Datenvisualisierungen, die Forschenden, Planern, Entscheidungsträgern und der breiten Öffentlichkeit helfen, komplexe Systeme zu verstehen.',
-      'In den vergangenen acht Jahren habe ich mit Forschungsinstituten, Think Tanks und Startups zusammengearbeitet und Web-Applikationen sowie interaktive Tools für Themen wie regionale Energieplanung, Ladeinfrastruktur, nachhaltige Mobilität und Offgrid Systeme entwickelt. Da ich sowohl das Design als auch die visuelle Frontend-Umsetzung übernehme, entfallen Übergabeverluste, und das Endprodukt gewinnt an Sorgfalt und Tiefe.',
-      'Mein Hintergrund verbindet eine kunsthandwerkliche Ausbildung, ein naturwissenschaftliches Studium und acht Jahre praktische Erfahrung im Energiesektor, ergänzt durch das Zertifikatsprogramm „Intelligent and Integrated Energy Systems" der TU Delft.',
-      'Ich lebe in Lissabon, arbeite remote für Kunden in ganz Europa und beschäftige mich intensiv damit, wie sich komplexe Systeme, etwa Energie oder Städte, selbst organisieren.',
-      { pre: '', linkText: 'Sprechen Sie mich gerne an', href: 'https://www.linkedin.com/in/blancien/', post: '. Ich freue mich über neue Projekte im Energiebereich.' },
+      'Ich bin Produktdesigner mit Spezialisierung auf die Energiewende – auf Planungstools, Web-Interfaces und Datenvisualisierungen. Sie alle helfen Planern, Forschenden, Entscheidungsträgern und Bürgerinnen und Bürgern, Entscheidungen über komplexe Energiesysteme zu treffen.',
+      'In den vergangenen acht Jahren habe ich mit Forschungsinstituten, Think Tanks und Energieunternehmen zusammengearbeitet und Tools für regionale Energieplanung, EV-Ladeinfrastruktur, Energiesystemmodellierung und netzunabhängige Elektrifizierung gestaltet und entwickelt.',
+      'Von Anfang an habe ich sowohl Design als auch Frontend-Implementierung übernommen. In der Praxis bedeutet das: Feedback aus einem Workshop oder von einem Kunden kann direkt in funktionierenden Code einfließen – ohne Übergabe dazwischen, ohne Details, die dabei verloren gehen.',
+      'Ich arbeite auf Englisch, Deutsch und Französisch, womit ein Großteil der europäischen Energielandschaft abgedeckt ist. Mein Hintergrund verbindet eine kunsthandwerkliche Ausbildung, ein naturwissenschaftliches Studium an der Humboldt-Universität Berlin, acht Jahre im Energiesektor und das Zertifikatsprogramm der TU Delft in Intelligent and Integrated Energy Systems.',
+      'Ich lebe in Lissabon und arbeite remote in ganz Europa. Abseits von Kundenprojekten fasziniert mich, wie komplexe Systeme – Energienetze oder Städte – sich selbst organisieren. Wahrscheinlich der Grund, warum ich bei Tools voller Karten gelandet bin.',
+      { pre: 'Wenn das passt, ', linkText: 'melden Sie sich gerne', href: 'https://www.linkedin.com/in/blancien/', post: '.' },
     ],
   },
 
   // ─── Contact page ──────────────────────────────────────────────────────────
   contactPage: {
     heading: 'Kontakt',
-    intro: 'Ich nehme gerne Kontakt zu neuen Projekten im Energiebereich auf.',
+    paragraphs: [
+      'Ich höre gerne von neuen Projekten im Energiebereich: Planungstools, Dashboards, Karten-Interfaces oder etwas, das noch keine Kategorie hat.',
+      'Melden Sie sich auch dann, wenn die Idee noch vage ist. Ein paar Sätze darüber, woran Sie arbeiten, reichen völlig aus!',
+    ],
+    note: 'Ich arbeite auf Englisch, Französisch, Deutsch und Portugiesisch – schreiben Sie einfach in der Sprache, die Ihnen am leichtesten fällt. Ich antworte in der Regel innerhalb von 1–2 Werktagen.',
+    linkedin: { pre: 'Auch auf ', linkText: 'LinkedIn', href: 'https://www.linkedin.com/in/blancien/', post: '.' },
   },
 
   // ─── Imprint page ──────────────────────────────────────────────────────────

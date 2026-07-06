@@ -18,9 +18,9 @@ export const en = {
 
   // ─── Homepage — Hero ───────────────────────────────────────────────────────
   hero: {
-    heading: 'Data-Heavy Interfaces for Climate Tech',
+    heading: 'Data-heavy interfaces for the energy transition',
     subheading:
-      '7+ years designing and building dashboards, scenario tools, and map-based interfaces for the renewable energy sector. I help interdisciplinary teams communicate complex energy insights through clear, accessible design.',
+      'Eight years designing and building planning tools, dashboards and map-based interfaces for the energy sector, such as research institutes, energy companies and public projects. I turn complex models and infrastructure data into tools that planners, operators and citizens can actually use.',
   },
 
   // ─── Homepage — Projects section ───────────────────────────────────────────
@@ -56,10 +56,11 @@ export const en = {
   about: {
     heading: 'About',
     paragraphs: [
-      "I'm a UX/UI designer specialising in the energy transition — the tools, web interfaces, and data visualisations that help researchers, planners, policymakers, and non-experts make sense of complex systems.",
-      "For the past eight years I've worked with research institutes, think tanks, and startups, designing web applications and interactive tools for problems like regional energy planning, charging infrastructure, sustainable transportation, and off-grid microgrid solutions. I handle both the design and the visual frontend implementation, which means fewer handoff gaps and more considered detail in the final product.",
-      "My background spans applied arts training, a science degree, and eight years of hands-on work in the energy sector, reinforced more recently by TU Delft's certificate programme in Intelligent and Integrated Energy Systems.",
-      "I'm based in Lisbon, work remotely across Europe, and have a high interest in how complex systems, such as energy or cities, organise themselves.",
+      "I'm a product designer specializing in the energy transition, including planning tools, web interfaces and data visualisations. They all help planners, researchers, policymakers and citizens make decisions about complex energy systems.",
+      "For the past eight years I've worked with research institutes, think tanks and energy companies, designing and building tools for regional energy planning, EV charging infrastructure, energy system modeling and off-grid electrification.",
+      "Since the start, I've been handling both the design and the frontend implementation. In practice this means feedback from a workshop or a client can go directly into working code, with no handoff in between and no detail lost in translation.",
+      "I work in English, German and French, which covers a large part of the European energy landscape. My background combines applied arts training, a science degree from Humboldt University in Berlin, eight years in the energy sector, and TU Delft's certificate programme in Intelligent and Integrated Energy Systems.",
+      "I'm based in Lisbon and work remotely across Europe. Outside of client work, I'm drawn to how complex systems, such as energy grids or cities, organise themselves, which is probably why I ended up designing tools full of maps.",
       { pre: "If that sounds like a fit, ", linkText: "get in touch", href: "https://www.linkedin.com/in/blancien/", post: "." },
     ],
   },
@@ -67,7 +68,12 @@ export const en = {
   // ─── Contact page ──────────────────────────────────────────────────────────
   contactPage: {
     heading: 'Contact',
-    intro: "I'm always happy to connect on new projects in the energy space.",
+    paragraphs: [
+      "I'm always happy to hear about new projects in the energy space: planning tools, dashboards, map interfaces, or something that doesn't fit a category yet.",
+      "Feel free to reach out even if the idea is still vague. A couple of sentences about what you're working on is plenty!",
+    ],
+    note: "I work in English, French, German and Portuguese, so you can write in whichever is easiest. I usually reply within 1–2 business days.",
+    linkedin: { pre: 'Also on ', linkText: 'LinkedIn', href: 'https://www.linkedin.com/in/blancien/', post: '.' },
   },
 
   // ─── Imprint page ──────────────────────────────────────────────────────────

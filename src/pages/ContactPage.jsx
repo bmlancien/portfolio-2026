@@ -8,20 +8,16 @@ const MailIcon = () => (
   </svg>
 );
 
-const LinkedInIcon = () => (
-  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M19 3C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19ZM18.5 18.5V13.2C18.5 12.3354 18.1565 11.5062 17.5452 10.8948C16.9338 10.2835 16.1046 9.94 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17C14.6813 12.17 15.0374 12.3175 15.2999 12.5801C15.5625 12.8426 15.71 13.1987 15.71 13.57V18.5H18.5ZM6.88 8.56C7.32556 8.56 7.75288 8.383 8.06794 8.06794C8.383 7.75288 8.56 7.32556 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19C6.43178 5.19 6.00193 5.36805 5.68499 5.68499C5.36805 6.00193 5.19 6.43178 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56ZM8.27 18.5V10.13H5.5V18.5H8.27Z" fill="currentColor"/>
-  </svg>
-);
 
 export default function ContactPage() {
   const t = useT();
   return (
     <section className="py-8 md:py-16 lg:py-24 pb-12 md:pb-20 lg:pb-32">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-8xl mx-auto px-6 lg:px-12">
         <h1 className="text-4xl py-8">{t.contactPage.heading}</h1>
-        <p className="text-gray-700 leading-relaxed max-w-2xl mb-8">{t.contactPage.intro}</p>
-        <div className="flex flex-col gap-4">
+        <div className="max-w-2xl flex flex-col gap-6 text-gray-700 leading-relaxed">
+          <p>{t.contactPage.paragraphs[0]}</p>
+          <p>{t.contactPage.paragraphs[1]}</p>
           <a
             href="mailto:bryanlancien.ui@gmail.com"
             className="flex items-center gap-3 text-gray-700 hover:text-gray-500 w-fit"
@@ -29,15 +25,19 @@ export default function ContactPage() {
             <MailIcon />
             <span className="underline">bryanlancien.ui@gmail.com</span>
           </a>
-          <a
-            href="https://www.linkedin.com/in/blancien/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-3 text-gray-700 hover:text-gray-500 w-fit"
-          >
-            <LinkedInIcon />
-            <span className="underline">LinkedIn</span>
-          </a>
+          <p>{t.contactPage.note}</p>
+          <p>
+            {t.contactPage.linkedin.pre}
+            <a
+              href={t.contactPage.linkedin.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-gray-500"
+            >
+              {t.contactPage.linkedin.linkText}
+            </a>
+            {t.contactPage.linkedin.post}
+          </p>
         </div>
       </div>
     </section>
