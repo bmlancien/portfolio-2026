@@ -171,6 +171,11 @@ export const en = {
       header: {
         title: 'Making the energy transition understandable for the people who have to plan it',
         funding: 'Funded by BMWK (7th Energy Research Program)',
+        tagline: [
+          'Lead designer for a regional energy planning tool, built with Reiner Lemoine Institut, Öko-Institut and IZT',
+          'Tested and improved through several workshop cycles with real stakeholders in the Oderland-Spree region',
+          'By the final iteration, participants used the tool on their own to discuss real planning trade-offs',
+        ],
         skills: ['UX/UI design', 'Data visualisation & map design', 'UI development'],
       },
       sections: [
@@ -244,6 +249,10 @@ export const en = {
       header: {
         title: 'Data visualization dashboard for a climate-neutral Germany',
         funding: 'WWF Germany',
+        tagline: [
+          "11 interactive visualizations for WWF Germany's website, from the daily electricity mix to long-term CO₂ trends",
+          'Designed for a general audience with no energy background, embedded as responsive iframes across the WWF site',
+        ],
         skills: ['UI design', 'Data visualisation design', 'UI development'],
       },
       sections: [
@@ -322,6 +331,11 @@ export const en = {
       header: {
         title: "A scenario planning tool for citizens shaping their region's energy future",
         funding: 'Funded by Bundesministerium für Wirtschaft und Energie and PtJ',
+        tagline: [
+          'A tool that lets citizens and local stakeholders explore energy scenarios for their own region: wind, PV, biomass, hydrogen, storage, land use, costs',
+          'Designed for a partly skeptical audience: every design choice was also a trust decision',
+          'Used in a "Planungszelle" — a structured citizen deliberation — in the Peenetal region (Germany)',
+        ],
         skills: ['UX/UI design', 'UI development'],
       },
       sections: [
@@ -417,6 +431,11 @@ export const en = {
       header: {
         title: 'Lead Designer for a Charging Infrastructure Planning Platform',
         funding: '',
+        tagline: [
+          'Design lead since 2018, working directly with the leadership team',
+          'The platform is used by charge point operators, municipalities and investors in Germany and other European countries',
+          'Scope grew from UI work to the full product surface: app, website, icon systems, French localization',
+        ],
         skills: ['UX/UI design', 'UI development', 'Map design', 'Visual design'],
       },
       sections: [

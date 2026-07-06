@@ -171,6 +171,11 @@ export const en = {
       header: {
         title: 'Die Energiewende verständlich für alle machen, die sie planen müssen',
         funding: 'Gefördert durch das BMWK (7. Energieforschungsprogramm)',
+        tagline: [
+          'Lead-Designer für ein regionales Energieplanungstool, entwickelt mit dem Reiner Lemoine Institut, Öko-Institut und IZT',
+          'In mehreren Workshop-Zyklen mit echten Stakeholdern in der Region Oderland-Spree getestet und weiterentwickelt',
+          'In der letzten Iteration nutzten die Teilnehmenden das Tool eigenständig, um reale Planungsabwägungen zu diskutieren',
+        ],
         skills: ['UX/UI-Design', 'Datenvisualisierung & Kartendesign', 'UI-Entwicklung'],
       },
       sections: [
@@ -244,6 +249,10 @@ export const en = {
       header: {
         title: 'Datenvisualisierungs-Dashboard für ein klimaneutrales Deutschland',
         funding: 'WWF Deutschland',
+        tagline: [
+          '11 interaktive Visualisierungen für die Website des WWF Deutschland, vom täglichen Strommix bis zu langfristigen CO₂-Trends',
+          'Konzipiert für ein breites Publikum ohne Energiehintergrund, als responsive iframes in die WWF-Website eingebettet',
+        ],
         skills: ['UI-Design', 'Datenvisualisierungsdesign', 'UI-Entwicklung'],
       },
       sections: [
@@ -322,6 +331,11 @@ export const en = {
       header: {
         title: 'Ein Szenario-Planungstool für Bürgerinnen und Bürger, die die Energiezukunft ihrer Region mitgestalten',
         funding: 'Gefördert durch das Bundesministerium für Wirtschaft und Energie und PtJ',
+        tagline: [
+          'Ein Tool, das Bürgerinnen, Bürgern und lokalen Stakeholdern ermöglicht, Energieszenarien für ihre Region zu erkunden: Wind, PV, Biomasse, Wasserstoff, Speicher, Flächennutzung, Kosten',
+          'Für ein teils skeptisches Publikum gestaltet: Jede Designentscheidung war zugleich eine Vertrauensentscheidung',
+          'Eingesetzt in einer „Planungszelle" – einem strukturierten Bürgerbeteiligungsverfahren – in der Peenetal-Region',
+        ],
         skills: ['UX/UI-Design', 'UI-Entwicklung'],
       },
       sections: [
@@ -417,6 +431,11 @@ export const en = {
       header: {
         title: 'Lead Designer für eine Plattform zur Ladeinfrastrukturplanung',
         funding: '',
+        tagline: [
+          'Design-Lead seit 2018, direkte Zusammenarbeit mit dem Führungsteam',
+          'Die Plattform wird von Ladepunktbetreibern, Kommunen und Investoren in Deutschland und anderen europäischen Ländern genutzt',
+          'Vom UI-Design zur vollen Produktoberfläche: App, Website, Icon-Systeme, französische Lokalisierung',
+        ],
         skills: ['UX/UI-Design', 'UI-Entwicklung', 'Kartendesign', 'Visual Design'],
       },
       sections: [

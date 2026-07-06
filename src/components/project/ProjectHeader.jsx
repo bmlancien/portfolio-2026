@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ProjectHeader({ organization, funding, years, title, skills }) {
+export default function ProjectHeader({ organization, funding, years, title, tagline, skills }) {
   return (
     <div className="max-w-8xl mx-auto px-6 lg:px-12 pt-12 lg:pt-18 xl:pt-24 lg:pt-32 pb-12">
       <div className="flex flex-wrap items-center gap-1 text-sm lg:text-base xl:text-xl text-gray-500 mb-2 xl:mb-6">
@@ -17,6 +17,16 @@ export default function ProjectHeader({ organization, funding, years, title, ski
           </span>
         ))}
       </div>
+      {tagline && tagline.length > 0 && (
+        <ul className="mt-6 xl:mt-10 space-y-1.5">
+          {tagline.map((line, i) => (
+            <li key={i} className="flex items-start gap-2 text-sm lg:text-base xl:text-lg text-gray-500">
+              <span className="shrink-0 mt-0.5 text-gray-300">—</span>
+              <span>{line}</span>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }

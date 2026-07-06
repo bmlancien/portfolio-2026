@@ -19,6 +19,7 @@ export default function ReEnActPage() {
         years={reenact.header.years}
         title={h.title}
         funding={h.funding}
+        tagline={h.tagline}
         skills={h.skills}
       />
       <ProjectHero {...reenact.hero} />
